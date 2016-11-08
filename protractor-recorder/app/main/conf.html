@@ -1,0 +1,99 @@
+<div class="layout-column flex">
+
+  <md-progress-linear ng-if="main.isLoadingSession" md-mode="indeterminate"></md-progress-linear>
+
+  <div flex layout="row">
+
+    <div flex layout-padding layout="column">
+      <md-content class="flex layout-column">
+        <div>
+
+          <div layout="row">
+            <div flex layout="column">
+
+              <md-input-container class="md-block">
+                <label>Selenium Address</label>
+                <input type="text" ng-model="main.conf.seleniumAddress" placeholder="Selenium url">
+              </md-input-container>
+
+
+              <md-input-container class="md-block">
+                <md-checkbox aria-label="Jasmine" ng-model="main.conf.jasmine">Jasmine 2</md-checkbox>
+              </md-input-container>
+
+              <md-input-container class="md-block">
+                <md-checkbox aria-label="Ignore Synchronization" ng-model="main.conf.ignoreSynchronization">Ignore Synchronization</md-checkbox>
+              </md-input-container>
+
+            </div>
+
+            <div flex layout="column">
+
+              <md-input-container class="md-block">
+                <md-checkbox aria-label="Login page" ng-model="main.conf.login">Login page
+                  <md-tooltip md-direction="right">This option force wait page login redirect</md-tooltip>
+                </md-checkbox>
+              </md-input-container>
+
+              <md-input-container class="md-block">
+                <md-checkbox aria-label="Window maximize" ng-model="main.conf.maximize">Window maximize</md-checkbox>
+              </md-input-container>
+
+              <div layout="row" style="margin-left: 35px">
+                <md-input-container class="md-block">
+                  <label>Width</label>
+                  <input type="number" ng-disabled="main.conf.maximize" ng-model="main.conf.windowSize.width">
+                </md-input-container>
+                <md-input-container class="md-block">
+                  <label>Height</label>
+                  <input type="number" ng-disabled="main.conf.maximize" ng-model="main.conf.windowSize.height">
+                </md-input-container>
+              </div>
+
+            </div>
+          </div>
+          <div ng-if="main.showSelectedOptions" layout="row" flex>
+            <h4>{{ main.selectedItems }} {{ main.selectedItems == 1 ? 'item' : 'items' }} selected</h4>
+            <span flex></span>
+            <md-button aria-label="Remove Actions" ng-click="main.removeActions()">
+              <md-icon md-svg-icon="delete"></md-icon>
+            </md-button>
+          </div>
+        </div>
+          <div layout="row" layout-align="center start" flex ng-include src="'main/table.html'">
+          </div>
+        <!--<md-button ng-click="main.exportProtractor()">Export Protractor</md-button>
+        <md-button ng-click="main.runTest()">Run Test</md-button>-->
+      </md-content>
+      <!-- <md-fab-speed-dial ng-hide="main.hidden" md-direction="up" md-open="main.isOpen"
+                         class="md-scale md-fab-bottom-right" ng-class="{ 'md-hover-full': main.hover }"
+                         ng-mouseenter="main.isOpen=true" ng-mouseleave="main.isOpen=false">
+        <md-fab-trigger>
+          <md-button aria-label="menu" ng-click="main.addSpec()" class="md-fab md-warn">
+            <md-tooltip md-direction="left" md-visible="tooltipVisible">Add Spec</md-tooltip>
+            <md-icon md-svg-icon="add" aria-label="menu"></md-icon>
+          </md-button>
+        </md-fab-trigger>
+        <md-fab-actions>
+          <md-button aria-label="Add Describe" class="md-fab md-raised md-mini"
+                     ng-click="main.addDescribe()">
+            <md-tooltip md-direction="left" md-visible="main.tooltipVisible"
+                        md-autohide="false">
+              New Describe
+            </md-tooltip>
+            <md-icon style="color: #000" md-svg-icon="list" aria-label="Describe"></md-icon>
+          </md-button>
+          <md-button aria-label="Add Config" class="md-fab md-raised md-mini"
+                     ng-click="main.addConfig()">
+            <md-tooltip md-direction="left" md-visible="main.tooltipVisible"
+                        md-autohide="false">
+              Add Config
+            </md-tooltip>
+            <md-icon style="color: #000" md-svg-icon="settings" aria-label="Config"></md-icon>
+          </md-button>
+
+        </md-fab-actions>
+      </md-fab-speed-dial> -->
+    </div>
+  </div>
+</div>

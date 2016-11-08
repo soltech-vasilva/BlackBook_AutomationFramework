@@ -1,0 +1,131 @@
+<!doctype html>
+<html ng-app="protractorRecorder">
+  <head>
+    <meta charset="utf-8">
+    <title>Protractor Recorder</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic" type="text/css">
+
+    <link href="../bower_components/angular-material/angular-material.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="../bower_components/angular-route/angular-route.js"></script>
+    <script type="text/javascript" src="../bower_components/angular-animate/angular-animate.js"></script>
+    <script type="text/javascript" src="../bower_components/angular-aria/angular-aria.js"></script>
+    <script type="text/javascript" src="../bower_components/angular-material/angular-material.js"></script>
+    <script type="text/javascript" src="../bower_components/angular-sortable-view/src/angular-sortable-view.js"></script>
+
+    <script src="/socket.io/socket.io.js"></script>
+
+  </head>
+  <body class="layout-row" ng-controller="NavbarController as navbar">
+
+    <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
+
+      <header class="nav-header">
+        <md-toolbar layout-align="center end">
+          <div class="md-toolbar-tools">
+            <h2>Protractor Recorder</h2>
+          </div>
+        </md-toolbar>
+      </header>
+
+      <div layout="column" layout-padding>
+        <md-input-container class="md-block" style="padding-bottom: 0px;">
+          <label>Base URL</label>
+          <input ng-model="navbar.conf.baseUrl" type="text" placeholder="Url">
+        </md-input-container>
+        <md-input-container class="md-block" style="padding-bottom: 0px;">
+          <label>Run speed</label>
+          <input ng-model="navbar.conf.runSpeed" type="number" placeholder="Milliseconds">
+        </md-input-container>
+      </div>
+      <md-list>
+        <md-list-item ng-click="navbar.openConf()" aria-label="Conf">
+          <p>Conf.js</p>
+        </md-list-item>
+      </md-list>
+      <div ng-repeat="describe in navbar.describes">
+        <md-subheader class="md-no-sticky">
+          {{ describe.string }}
+        </md-subheader>
+        <md-divider></md-divider>
+        <md-list>
+          <md-list-item ng-click="navbar.setSpec(spec, $index + 1)" ng-repeat="spec in describe.specs">
+            <p>{{ spec.string ? spec.string : 'Untitled Spec' }}</p>
+          </md-list-item>
+        </md-list>
+      </div>
+      <span flex></span>
+
+      <md-subheader class="md-no-sticky">
+        Drivers
+        <md-icon md-svg-icon="info" style="width: 17px; height: 17px;">
+          <md-tooltip md-direction="right">
+            Record on first and export to selected
+          </md-tooltip>
+        </md-icon>
+      </md-subheader>
+      <md-divider></md-divider>
+      <md-list>
+        <md-list-item ng-repeat="capability in navbar.capabilities | orderBy: 'driver'">
+          <img ng-src="assets/images/{{ capability.driver }}.png" style="width:30px;margin-right: 10px">
+          <p>{{ capability.driver }}</p>
+          <md-checkbox ng-change="navbar.setCapabilities(capability)" class="md-secondary" ng-model="capability.checked"></md-checkbox>
+        </md-list-item>
+      </md-list>
+
+      <!--<md-divider></md-divider>
+      <div row="column">
+        <md-list>
+          <md-list-item ng-click="openSettings()" aria-label="Settings">
+            <md-icon md-svg-icon="settings"></md-icon>
+            <p>Settings</p>
+          </md-list-item>
+        </md-list>
+      </div>-->
+
+    </md-sidenav>
+
+    <div class="layout-column flex">
+
+      <md-toolbar layout-align="center end">
+        <div class="md-toolbar-tools">
+          <h2>{{ navbar.title }}</h2>
+          <span class="flex"></span>
+          <md-button style="color:#000" class="md-raised" ng-click="navbar.exportProtractor(false)">
+            <md-icon style="color:#000" md-svg-icon="file_download"></md-icon>
+            Export
+          </md-button>
+          <md-button style="color:#000" class="md-raised" ng-click="navbar.exportProtractor(true)">
+            <md-icon style="color:#000" md-svg-icon="play_circle"></md-icon>
+            Run
+          </md-button>
+          <md-button ng-if="!navbar.protractorRecServer.isRecording()" style="color:#000" class="md-raised" ng-click="navbar.createSession()">
+            <md-icon style="color:#9b1b1d" md-svg-icon="record"></md-icon>
+            Record
+          </md-button>
+          <md-button ng-if="navbar.protractorRecServer.isRecording()" class="md-raised md-warn" ng-click="navbar.pauseRecording()">
+            <md-icon style="color: #FFF" md-svg-icon="pause"></md-icon>
+            Pause
+          </md-button>
+        </div>
+      </md-toolbar>
+
+      <md-progress-linear ng-if="navbar.protractorRecServer.isLoading()" md-mode="indeterminate"></md-progress-linear>
+
+      <md-content id="main" class="flex layout-column" ng-view></md-content>
+
+    </div>
+
+   <script type="text/javascript" src="app.js"></script>
+   <script type="text/javascript" src="components/navbar/navbar.controller.js"></script>
+   <script type="text/javascript" src="main/main.controller.js"></script>
+   <script type="text/javascript" src="components/protractorRecServer/protractorRecServer.service.js"></script>
+   <script type="text/javascript" src="components/seleniumJWP/seleniumJWP.service.js"></script>
+
+  </body>
+</html>
