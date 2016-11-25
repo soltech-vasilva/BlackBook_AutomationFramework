@@ -1,6 +1,6 @@
 Feature: Buy Event Ticket
 
   Scenario: Buy Event Tickets
-    Given I enter Soltech Website
-
-
+    Given I START Test case
+    Then I enter Soltech Website
+    Then I END Test case

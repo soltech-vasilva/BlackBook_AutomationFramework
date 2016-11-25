@@ -1,0 +1,62 @@
+[
+  {
+    "id": "Buy-Event-Ticket",
+    "name": "Buy Event Ticket",
+    "description": "",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/TestAutomation/e2e/features/TestCases/OpenWebsite.feature",
+    "elements": [
+      {
+        "name": "Buy Event Tickets",
+        "id": "Buy-Event-Ticket;buy-event-tickets",
+        "line": 3,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "name": "I enter Soltech Websitess",
+            "line": 4,
+            "keyword": "Given ",
+            "result": {
+              "duration": 20006021,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Buy-Event-Ticket",
+    "name": "Buy Event Ticket",
+    "description": "",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/TestAutomation/e2e/features/TestCases/OpenWebsite1.feature",
+    "elements": [
+      {
+        "name": "Buy Event Tickets",
+        "id": "Buy-Event-Ticket;buy-event-tickets",
+        "line": 3,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "name": "I enter Soltech Website",
+            "line": 4,
+            "keyword": "Given ",
+            "result": {
+              "duration": 6360564,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  }
+]
