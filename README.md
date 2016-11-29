@@ -41,3 +41,41 @@ Elementor
 1.  npm install protractor -g
 2.  To run elementor $ elementor https://angularjs.org'
 3. it will open chrome and you able to get elements.
+
+
+***********************************************************
+Adding Developer machine setup (Cultural Link) test framework
+1.https://nodejs.org/en/download/package-manager/ (have not install it yet)
+I ran : curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"
+2. npm install -g gulp (already installed it)
+3. npm install -g typescript
+4. npm install -g mocha (already installed it)
+5. npm install -g webpack 
+
+Get source code
+1. git clone https://github.com/soltechnic/culturaLink
+2. cd CulturalLink
+3. npm install
+
+Setup Environmental Variables
+1.    Create a file /env/vars.js
+2.    Paste in the following: (I asked Neal to get me this info and paste something similar to below.
+module.exports = {
+ "psqlDev": {
+   "database": "culturalink",
+   "user": {Enter App Username},
+   "password": {Enter Password},
+   "options": {
+     "host": {Enter Host},
+     "port": 5432,
+     "dialect": "postgres",
+     "pool": {
+       "max": 100,
+       "min": 0,
+       "idle": 10000
+     }
+   }
+ }
+}
+
+

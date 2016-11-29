@@ -7,10 +7,20 @@ exports.config = {
     //'e2e/features/*.feature'
     // ],
 
+    //Turn off applitool
+    'ApplitoolsOn': true,
+
     //Running Test Cases in specific order.
     specs: [
+        //always leave START_TestCases
+        'e2e/features/TestCases/START_TestCases.feature',
 
-        'e2e/features/TestCases/OpenWebsite.feature'//,
+        //add test cases here below:
+        'e2e/features/TestCases/OpenWebsite.feature',
+
+
+        //always leave END_TestCases
+        'e2e/features/TestCases/END_TestCases.feature'//,
     ],
 
     //BrowserStack
@@ -34,6 +44,10 @@ exports.config = {
     // Test 1 on this resolution (windows 8-10 and Mac lowest resolution)
     'width': 918,
     'height': 662,
+
+    // // //my MAC computer max resolution
+    // 'width': 1338,
+    // 'height': 666,
 
     // //Test 2 on this resolution (Mac max resolution)
     // 'width': 1814,
@@ -155,8 +169,10 @@ exports.config = {
     // ],
 
     capabilities: {
-    //'browserName': 'firefox'
-    'browserName': 'chrome'
+    //46.0b9
+    'browserName': 'firefox'
+    //53.0.2785.89
+    //'browserName': 'chrome'
     },
 
     directConnect: true, //Protractor can test directly against Chrome and Firefox without using a Selenium Server
