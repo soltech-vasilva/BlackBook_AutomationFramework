@@ -1,11 +1,16 @@
+var paths = require('/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/build/paths');
+//var paths = require('build/paths');
+
 exports.config = {
 
     //specs: [
     //'e2e/features/*.feature'
     // ],
 
+    //Running Test Cases in specific order.
     specs: [
-    'e2e/features/TestCases/OpenWebsite.feature'
+
+        'e2e/features/TestCases/OpenWebsite.feature'//,
     ],
 
     //BrowserStack
@@ -18,113 +23,181 @@ exports.config = {
     //Appium
     //seleniumAddress: 'http://localhost:4733/wd/hub',
 
-    //multiple browsers at a time testing
-    //    multiCapabilities: [
-    // {
-    //      ////////////////////////////////////////////// Windows 7 Chrome 51.0  ///////////////////
+    // //this works on my mac computer
+    // 'width': 1024,
+    // 'height': 666,
+
+    // //windows XP and 7 lowest resolution
+    // 'width': 694,
+    // 'height': 494,
+
+    // Test 1 on this resolution (windows 8-10 and Mac lowest resolution)
+    'width': 918,
+    'height': 662,
+
+    // //Test 2 on this resolution (Mac max resolution)
+    // 'width': 1814,
+    // 'height': 974
+
+    // //windows all version max resolution
+    // 'width': 1942,
+    // 'height': 1430
+
+    // 'commonCapabilities': {
     //      //Label
     //      'build': 'version 1: ' + new Date().toString(),
     //      'project': 'Black Book',
     //      'name': 'TestAutomation Suit',
     //
-    //      //User
-    //      'browserstack.user': '',
-    //      'browserstack.key': '',
-    //      //'browserstack.local' : 'true',
-    //
-    //      //Browser Type
-    //      'browserName': 'Chrome',
-    //      'browser_version': '51.0',
-    //      'os': 'Windows',
-    //      'os_version': '7',
-    //      'resolution': '1920x1200' ,
+    //     'browserstack.user': 'victorsilva8',
+    //     'browserstack.key': 'xCzjDLuovykUS3dzL6tK',
+    //     //'browserstack.local' : 'true',
+    //     // 'acceptSslCerts': true,
     //
     //      //Screenshot
     //      'browserstack.debug': 'true',
     //
     //      //Video recording
-    //      'browserstack.video': 'true'
+    //      'browserstack.video': 'true'//,
+    // },
     //
-    //  }
-    // ,
-    // {
-    //      ////////////////////////////////////////////// Windows 7 FireFox 37.0  ///////////////////
-    //      //Label
-    //      'build': 'version 1: '+ new Date().toString(),
-    //      'project' : 'Black Book',
-    //      'name': 'TestAutomation Suit',
-    //
-    //      //User
-    //     'browserstack.user': '',
-    //     'browserstack.key': '',
-    //      //'browserstack.local' : 'true',
-    //
-    //      //Browser Type
-    //      'browser' : 'Firefox',
-    //      'browser_version' : '46.0',
-    //      'os' : 'Windows',
-    //      'os_version' : '7',
-    //      'resolution' : '1920x1200',
-    //
-    //      //Screenshot
-    //      'browserstack.debug': 'true',
-    //
-    //      //Video recording
-    //      'browserstack.video': 'true'
-    //  }
-    //
-    // /*
-    //         ,
-    //         {
-    //             ////////////////////////////////////////////// Windows 10 IE 11.0 ///////////////////
-    //             //Label
-    //             'build': 'version 1: '+ new Date().toString(),
-    //             'project' : 'Black Book',
-    //             'name': 'TestAutomation Suit',
-    //
-    //             //User
-    //             'browserstack.user': '',
-    //             'browserstack.key': '',
-    //             'browserstack.local' : 'true',
-    //
-    //             //Browser Type
-    //             'browserName' : 'IE',
-    //             'browser_version' : '11.0',
-    //             'os' : 'Windows',
-    //             'os_version' : '10',
-    //             'resolution' : '1024x768' //,
-    //
-    //             //Screenshot
-    //             //'browserstack.debug': 'true',
-    //
-    //             //Video recording
-    //             //'browserstack.video': 'true'
-    //         }
-    //
-    //  ],
+    // //Browserstack multiple browsers at a time testing
+    //   multiCapabilities: [
+    //       {
+    //           ////////////////////////////////////////////// MAC SIERRA Safari 10.0  1920x1080 ///////////////////
+    //           // Browser Type
+    //           'os': 'OS X',
+    //           'os_version': 'Sierra',
+    //           'browserName': 'Safari',
+    //           'browser_version': '10.0',
+    //           'resolution': '1920x1080'
+    //       }
+    //       //   ,
+    //       // {
+    //       //     ////////////////////////////////////////////// Windows 10 Firefox 50.0  1920x1200 ///////////////////
+    //       //     // Browser Type
+    //       //     'os': 'Windows',
+    //       //     'os_version': '10',
+    //       //     'browserName': 'Firefox',
+    //       //     'browser_version': '50.0 beta',
+    //       //     'resolution': '1920x1200'
+    //       // }
+    //       // ,
+    //       // {
+    //       //     ////////////////////////////////////////////// Windows 7 FireFox 49.0  1920x1200 ///////////////////
+    //       //     //Browser Type
+    //       //     'os': 'Windows',
+    //       //     'os_version': '7',
+    //       //     'browserName': 'Firefox',
+    //       //     'browser_version': '49.0',
+    //       //     'resolution': '1920x1200'
+    //       // }
+    //       // ,
+    //       // {
+    //       //   ////////////////////////////////////////////// Windows 7 Chrome 54.0  1920x1200 ///////////////////
+    //       //    // Browser Type
+    //       //    'os': 'Windows',
+    //       //    'os_version': '7',
+    //       //    'browserName': 'Chrome',
+    //       //    'browser_version': '54.0',
+    //       //    'resolution': '1920x1200'//,
+    //       //
+    //       //   // 'chromeOptions': {
+    //       //   //     'excludeSwitches': ["disable-popup-blocking"]
+    //       //   // }
+    //       //
+    //       //   // 'chromeOptions': {
+    //       //   //     'args': ["--disable-popup-blocking"]
+    //       //   // }
+    //       //   }
+    //       //   ,
+    //       //   {
+    //       //   ////////////////////////////////////////////// Windows 7 IE 11.0  1920x1200 ///////////////////
+    //       //   // Browser Type
+    //       //   'os': 'Windows',
+    //       //   'os_version': '7',
+    //       //   'browserName': 'IE',
+    //       //   'browser_version': '11.0',
+    //       //   'resolution': '1920x1200'
+    //       //   }
+    //       //   ,
+    //       //
+    //       //   {
+    //       //   ////////////////////////////////////////////// Windows 10 IE 11.0 1920x1200 ///////////////////
+    //       //   //Browser Type
+    //       //   'browserName' : 'IE',
+    //       //   'browser_version' : '11.0',
+    //       //   'os' : 'Windows',
+    //       //   'os_version' : '10',
+    //       //   'resolution' : '1920x1200'
+    //       //   }
+    //       //   ,
+    //       //
+    //       //   {
+    //       //     ////////////////////////////////////////////// Windows 10 Edge 13.0 1920x1200 ///////////////////
+    //       //     //Browser Type
+    //       //     'os': 'Windows',
+    //       //     'os_version': '10',
+    //       //     'browserName': 'Edge',
+    //       //     'browser_version': '13.0',
+    //       //     'resolution': '1920x1200'
+    //       //   }
+    //       //   ,
+    //       //   {
+    //       //     ////////////////////////////////////////////// Windows 10 Chrome 54.0 1920x1200 ///////////////////
+    //       //     //Browser Type
+    //       //   'os': 'Windows',
+    //       //   'os_version': '10',
+    //       //   'browserName': 'Chrome',
+    //       //   'browser_version': '54.0',
+    //       //   'resolution': '1920x1200'
+    //       //   }
+    // ],
 
     capabilities: {
-    'browserName': 'firefox'
-    //'browserName': 'chrome'
+    //'browserName': 'firefox'
+    'browserName': 'chrome'
     },
 
-    directConnect: true,
-
-    //set to "custom" instead of cucumber.
-    //framework: 'custom',
+    directConnect: true, //Protractor can test directly against Chrome and Firefox without using a Selenium Server
 
     // path relative to the current config file
     frameworkPath: require.resolve('protractor-cucumber-framework'),
 
+    //set to "custom" instead of cucumber.
+    //framework: 'custom',
+
     framework: 'cucumber',
+
     //relevant cucumber command line options
     cucumberOpts: {
-    // format: "summary",
-    tags: false,
-    format: 'pretty',
-    profile: false,
-    'no-source': true,
-    require: 'TestAutomation/e2e/features/step_definitions/my_steps.js'
+
+
+        //format: "summary", //simple format
+       // format: 'pretty',
+
+        //require: [paths.distFiles, paths.support],
+        // require: ['/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/support/JsonOutputHook.js'],
+
+        require: ['/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/TestAutomation/e2e/features/step_definitions/my_steps.js' ],
+        //format: 'pretty',
+        format: 'json',
+
+        tags: false, //leave it false works.
+
+        profile: false, //false  it still works on true
+        'no-source': true,
+        //require: ['TestAutomation/e2e/features/step_definitions/my_steps.js', paths.support],
+
+        //testing new stuff
+        backtrace: true, // <boolean> show full bacwebdriver-manager updatektrace for errors
+        dryRun: false,  // <boolean> invoke formatters without executing steps
+        failFast: false , // <boolean> abort the run on first failure
+        colors: true,       // <boolean> disable colors in formatter output
+        snippets: true ,     // <boolean> hide step definition snippets for pending steps
+        source: true,       // <boolean> hide source URIs
+        strict: true,      // <boolean> fail if there are any undefined or pending steps
+        ignoreUndefinedDefinitions: true // <boolean> Enable this config to treat undefined definitions as warnings.
     },
 
     // cucumberOpts: {
@@ -149,7 +222,13 @@ exports.config = {
     //     browser.ignoreSynchronization = false;
     // },
 
-    allScriptsTimeout: 10000//,
+    allScriptsTimeout: 10000 // ,
+  //  getPageTimeout: 10000,
 
     // rootElement: '.my-app'
 };
+
+// // Code to support common capabilities
+// exports.config.multiCapabilities.forEach(function(caps){
+//     for(var i in exports.config.commonCapabilities) caps[i] = caps[i] || exports.config.commonCapabilities[i];
+// });

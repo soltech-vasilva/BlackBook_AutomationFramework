@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "umd",
+    "target": "es5",
+    "declaration": true,
+    "sourceMap": true,
+    "removeComments": false,
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "filesGlob": [
+    "steps/**/*.ts"
+  ]
+}
