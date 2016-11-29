@@ -34,10 +34,12 @@ var CaptureBrowserCapabilities = function CaptureBrowserCapabilities()
             console.log(this.currentHeightTestResolution);
             // console.log(currentOSVersion);
 
-            eyesSetUp.EyesInitialSetUp(eyes);
-            eyesSetUp.EyesOpen_StartTestCase(eyes, this.currentWidthTestResolution,this.currentHeightTestResolution );
-            eyesSetUp.EyesSetBaseline(eyes, this.currentBrowserName, this.currentBrowserVersion, this.currentWidthTestResolution, this.currentHeightTestResolution);
-            eyesSetUp.EyesSetBatch(eyes, this.currentOSName, this.currentBrowserName, this.currentBrowserVersion, this.currentWidthTestResolution, this.currentHeightTestResolution);
+         if (ProtractorConfig.config.ApplitoolsOn == true) {
+             eyesSetUp.EyesInitialSetUp(eyes);
+             eyesSetUp.EyesOpen_StartTestCase(eyes, this.currentWidthTestResolution, this.currentHeightTestResolution);
+             eyesSetUp.EyesSetBaseline(eyes, this.currentBrowserName, this.currentBrowserVersion, this.currentWidthTestResolution, this.currentHeightTestResolution);
+             eyesSetUp.EyesSetBatch(eyes, this.currentOSName, this.currentBrowserName, this.currentBrowserVersion, this.currentWidthTestResolution, this.currentHeightTestResolution);
+         }
         });
     };
 };

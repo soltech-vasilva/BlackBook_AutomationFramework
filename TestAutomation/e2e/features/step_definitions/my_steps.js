@@ -10,10 +10,10 @@ var Eyes = require('eyes.protractor').Eyes;
 var eyes = new Eyes();
 eyes.setApiKey('zgr3zfZKIc8JyUNkZdxOZv4G4wTcCrYp4PXSG9HE9Ew110');
 
-var openSoltechWebsite = require('../Page/OpenSoltechWebsite.js');
+var dashboard = require('../Page/Dashboard.js');
 var eyesSetUp = require('../Page/EyesSetUp.js');
 var captureBrowserCapabilities = require ('../Page/CaptureBrowserCapabilities.js');
-
+var clients = require ('../Page/Clients.js');
 
 var myBlackBookSteps = function myBlackBookSteps() {
 
@@ -51,19 +51,24 @@ var myBlackBookSteps = function myBlackBookSteps() {
     //     }
     // });
 
-    this.Then(/^I enter Soltech Website$/, function (callback)
+    this.Given(/^I enter CulturalLink Website$/, function (callback)
     {
-        openSoltechWebsite.OpenSoltechMainPage(eyes);
+        dashboard.OpenCulturaLinkDashboard(eyes);
         callback();
     });
 
-    this.Then(/^I END Test case$/, function (callback) {
+    this.Given(/^I END Test case$/, function (callback) {
         eyesSetUp.EyesClose_EndTestcase(eyes);
         callback();
     });
 
     this.Given(/^I START Test case$/, function (callback) {
         captureBrowserCapabilities.captureCurrentBrowserCapabilities(eyes);
+        callback();
+    });
+
+    this.Then(/^I click on Clients button menu$/, function (callback) {
+        clients.Click_ClientsButton(eyes);
         callback();
     });
 };
