@@ -6,28 +6,23 @@ var expect = chai.expect;
 var chaiAsPromised = require('chai-as-promised');
 chai.use(chaiAsPromised);
 
-var DashboardRepo =  require('../Repository/DashboardRepo.js');
-var ProtractorConfig = require ('/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/TestAutomation/protractor-conf.js');
+var BB_dashboardRepo =  require('../Repository/BB_DashboardRepo.js');
+var protractorConfig = require ('/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/TestAutomation/protractor-conf.js');
 var eyesSetUp = require ('../Page/EyesSetUp.js');
 
-var OpenCulturaLinikDashboard = function OpenCulturaLinikDashboard(){
+var OpenBlackBookDashboard = function OpenBlackBookDashboard(){
 
-   OpenCulturaLinikDashboard.prototype.OpenCulturaLinkDashboard = function(eyes){
+   OpenBlackBookDashboard.prototype.OpenBlackBookDashboard = function(eyes){
        //page is non-angular
        browser.ignoreSynchronization = true;
-       //Open CulturaLink website
-       browser.driver.get(DashboardRepo.CulturaLinkUrl);
+       //Open BlackBook website
+       browser.driver.get(BB_dashboardRepo.BlackBookUrl);
        //browser.manage().window().maximize();  //comment out since Applitool does not like on firefox both.
        browser.sleep(2000);
-       //Click on Logo image
-       //DashboardRepo.Select_Element_SoltechLogo.click();
-       //this.closeAdsOnSoltechMainPage();
-       //browser.sleep(2000);
-
-       eyesSetUp.EyesCheckWindow(eyes, DashboardRepo.EyesVerify_Dashboard,ProtractorConfig.config.ApplitoolsOn);
+       eyesSetUp.EyesCheckWindow(eyes, BB_dashboardRepo.EyesVerify_BB_Dashboard,protractorConfig.config.ApplitoolsOn);
    };
 
-   // OpenCulturaLinikDashboard.prototype.closeAdsOnSoltechMainPage = function ()
+   // OpenBlackBookDashboard.prototype.closeAdsOnSoltechMainPage = function ()
    // {
    //    //  var displayed ='hhhhhh';
    //    //
@@ -55,7 +50,7 @@ var OpenCulturaLinikDashboard = function OpenCulturaLinikDashboard(){
    //     //     if (displayed == true)
    //     //     {
    //     //         console.log(visible);
-   //     //        // DashboardRepo.Select_Element_Ads_CloseXicon.click();
+   //     //        // BB_dashboardRepo.Select_Element_Ads_CloseXicon.click();
    //     //         displayed = false;
    //     //     }
    //     //     browser.sleep(3000);
@@ -72,4 +67,4 @@ var OpenCulturaLinikDashboard = function OpenCulturaLinikDashboard(){
    //     // });
    // };
 };
-module.exports = new OpenCulturaLinikDashboard();
+module.exports = new OpenBlackBookDashboard();

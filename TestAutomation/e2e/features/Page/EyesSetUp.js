@@ -8,7 +8,7 @@ chai.use(chaiAsPromised);
 
 var Eyes = require('eyes.protractor').Eyes;
 var request = require("request");
-var ProtractorConfig = require ('/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/TestAutomation/protractor-conf.js');
+var protractorConfig = require ('/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/TestAutomation/protractor-conf.js');
 
 var EyesSetUp = function EyesSetUp(){
 
@@ -33,7 +33,7 @@ var EyesSetUp = function EyesSetUp(){
 
     EyesSetUp.prototype.EyesClose_EndTestcase = function(eyes){
         //eyes.close();
-        if (ProtractorConfig.config.ApplitoolsOn == true) {
+        if (protractorConfig.config.ApplitoolsOn == true) {
             eyes.close(false).then(function (testResults) {
                 request({
                     uri: "https://victorsilva8:xCzjDLuovykUS3dzL6tK@www.browserstack.com/automate/sessions/<session-id>.json",
@@ -47,7 +47,7 @@ var EyesSetUp = function EyesSetUp(){
 
     EyesSetUp.prototype.EyesCheckWindow = function (eyes, verifyScreenElementName , isBooleanApplitoolsOn ) {
         if (isBooleanApplitoolsOn == true) {
-           // eyes.checkWindow(DashboardRepo.EyesVerify_Dashboard);
+           // eyes.checkWindow(BB_dashboardRepo.EyesVerify_BB_Dashboard);
             eyes.checkWindow(verifyScreenElementName);
         }
     }

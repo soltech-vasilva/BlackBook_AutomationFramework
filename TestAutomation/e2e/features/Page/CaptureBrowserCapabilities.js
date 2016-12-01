@@ -6,7 +6,7 @@ var expect = chai.expect;
 var chaiAsPromised = require('chai-as-promised');
 chai.use(chaiAsPromised);
 
-var ProtractorConfig = require ('/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/TestAutomation/protractor-conf.js');
+var protractorConfig = require ('/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/TestAutomation/protractor-conf.js');
 var eyesSetUp = require ('../Page/EyesSetUp.js');
 
 var CaptureBrowserCapabilities = function CaptureBrowserCapabilities()
@@ -22,7 +22,7 @@ var CaptureBrowserCapabilities = function CaptureBrowserCapabilities()
         browser.getCapabilities().then(function (capability) {
 
             try {
-                this.currentBrowserName = ProtractorConfig.config.capabilities.browserName;
+                this.currentBrowserName = protractorConfig.config.capabilities.browserName;
                 this.currentOSName = capability.get('platform');
             }
             catch (e) {
@@ -47,8 +47,8 @@ var CaptureBrowserCapabilities = function CaptureBrowserCapabilities()
             }
 
             this.currentBrowserVersion = capability.get('version');
-            this.currentWidthTestResolution = ProtractorConfig.config.width;
-            this.currentHeightTestResolution = ProtractorConfig.config.height;
+            this.currentWidthTestResolution = protractorConfig.config.width;
+            this.currentHeightTestResolution = protractorConfig.config.height;
             console.log(this.currentBrowserName);
             console.log(this.currentBrowserVersion);
             console.log(this.currentOSName);
@@ -56,7 +56,7 @@ var CaptureBrowserCapabilities = function CaptureBrowserCapabilities()
             console.log(this.currentHeightTestResolution);
             console.log(this.currentOSVersion);
 
-         if (ProtractorConfig.config.ApplitoolsOn == true) {
+         if (protractorConfig.config.ApplitoolsOn == true) {
              eyesSetUp.EyesInitialSetUp(eyes);
              eyesSetUp.EyesOpen_StartTestCase(eyes, this.currentWidthTestResolution, this.currentHeightTestResolution);
              eyesSetUp.EyesSetBaseline(eyes, this.currentBrowserName, this.currentBrowserVersion, this.currentWidthTestResolution, this.currentHeightTestResolution);

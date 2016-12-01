@@ -9,7 +9,7 @@ exports.config = {
     // ],
 
     //Turn off applitool
-    'ApplitoolsOn': true,
+    'ApplitoolsOn': false,
 
     //Running Test Cases in specific order.
     specs: [

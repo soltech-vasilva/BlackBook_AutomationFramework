@@ -10,10 +10,9 @@ var Eyes = require('eyes.protractor').Eyes;
 var eyes = new Eyes();
 eyes.setApiKey('zgr3zfZKIc8JyUNkZdxOZv4G4wTcCrYp4PXSG9HE9Ew110');
 
-var dashboard = require('../Page/Dashboard.js');
+var BB_dashboard = require('../Page/BB_Dashboard.js');
 var eyesSetUp = require('../Page/EyesSetUp.js');
 var captureBrowserCapabilities = require ('../Page/CaptureBrowserCapabilities.js');
-var clients = require ('../Page/Clients.js');
 
 var myBlackBookSteps = function myBlackBookSteps() {
 
@@ -51,9 +50,9 @@ var myBlackBookSteps = function myBlackBookSteps() {
     //     }
     // });
 
-    this.Given(/^I enter CulturalLink Website$/, function (callback)
+    this.Given(/^I enter BlackBook Website$/, function (callback)
     {
-        dashboard.OpenCulturaLinkDashboard(eyes);
+        BB_dashboard.OpenBlackBookDashboard(eyes);
         callback();
     });
 
@@ -64,11 +63,6 @@ var myBlackBookSteps = function myBlackBookSteps() {
 
     this.Given(/^I START Test case$/, function (callback) {
         captureBrowserCapabilities.captureCurrentBrowserCapabilities(eyes);
-        callback();
-    });
-
-    this.Then(/^I click on Clients button menu$/, function (callback) {
-        clients.Click_ClientsButton(eyes);
         callback();
     });
 };
