@@ -1,4 +1,5 @@
 var paths = require('/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/build/paths');
+var browserstack = require('browserstack-local');
 //var paths = require('build/paths');
 
 exports.config = {
@@ -33,21 +34,24 @@ exports.config = {
     //Appium
     //seleniumAddress: 'http://localhost:4733/wd/hub',
 
-    // //this works on my mac computer
-    // 'width': 1024,
-    // 'height': 666,
 
+    ////////////////////
     // //windows XP and 7 lowest resolution
     // 'width': 694,
     // 'height': 494,
 
     // Test 1 on this resolution (windows 8-10 and Mac lowest resolution)
-    'width': 918,
-    'height': 662,
+    // 'width': 918,
+    // 'height': 662,
+
+    // //this works on my mac computer
+    // 'width': 1024,
+    // 'height': 666,
+    ////////////////////
 
     // // //my MAC computer max resolution
-    // 'width': 1338,
-    // 'height': 666,
+    'width': 1338,
+    'height': 666,
 
     // //Test 2 on this resolution (Mac max resolution)
     // 'width': 1814,
@@ -56,16 +60,16 @@ exports.config = {
     // //windows all version max resolution
     // 'width': 1942,
     // 'height': 1430
-
+    //
     // 'commonCapabilities': {
     //      //Label
     //      'build': 'version 1: ' + new Date().toString(),
-    //      'project': 'Black Book',
+    //      'project': 'CulturaLink',
     //      'name': 'TestAutomation Suit',
     //
-    //     'browserstack.user': 'victorsilva8',
-    //     'browserstack.key': 'xCzjDLuovykUS3dzL6tK',
-    //     //'browserstack.local' : 'true',
+    //     'browserstack.user': 'soltech1',
+    //     'browserstack.key': 'dE7NovyR3hyyM1uEyKWP',
+    //     'browserstack.local' : 'true',
     //     // 'acceptSslCerts': true,
     //
     //      //Screenshot
@@ -86,94 +90,115 @@ exports.config = {
     //           'browser_version': '10.0',
     //           'resolution': '1920x1080'
     //       }
-    //       //   ,
-    //       // {
-    //       //     ////////////////////////////////////////////// Windows 10 Firefox 50.0  1920x1200 ///////////////////
-    //       //     // Browser Type
-    //       //     'os': 'Windows',
-    //       //     'os_version': '10',
-    //       //     'browserName': 'Firefox',
-    //       //     'browser_version': '50.0 beta',
-    //       //     'resolution': '1920x1200'
-    //       // }
-    //       // ,
-    //       // {
-    //       //     ////////////////////////////////////////////// Windows 7 FireFox 49.0  1920x1200 ///////////////////
-    //       //     //Browser Type
-    //       //     'os': 'Windows',
-    //       //     'os_version': '7',
-    //       //     'browserName': 'Firefox',
-    //       //     'browser_version': '49.0',
-    //       //     'resolution': '1920x1200'
-    //       // }
-    //       // ,
-    //       // {
-    //       //   ////////////////////////////////////////////// Windows 7 Chrome 54.0  1920x1200 ///////////////////
-    //       //    // Browser Type
-    //       //    'os': 'Windows',
-    //       //    'os_version': '7',
-    //       //    'browserName': 'Chrome',
-    //       //    'browser_version': '54.0',
-    //       //    'resolution': '1920x1200'//,
-    //       //
-    //       //   // 'chromeOptions': {
-    //       //   //     'excludeSwitches': ["disable-popup-blocking"]
-    //       //   // }
-    //       //
-    //       //   // 'chromeOptions': {
-    //       //   //     'args': ["--disable-popup-blocking"]
-    //       //   // }
-    //       //   }
-    //       //   ,
-    //       //   {
-    //       //   ////////////////////////////////////////////// Windows 7 IE 11.0  1920x1200 ///////////////////
-    //       //   // Browser Type
-    //       //   'os': 'Windows',
-    //       //   'os_version': '7',
-    //       //   'browserName': 'IE',
-    //       //   'browser_version': '11.0',
-    //       //   'resolution': '1920x1200'
-    //       //   }
-    //       //   ,
-    //       //
-    //       //   {
-    //       //   ////////////////////////////////////////////// Windows 10 IE 11.0 1920x1200 ///////////////////
-    //       //   //Browser Type
-    //       //   'browserName' : 'IE',
-    //       //   'browser_version' : '11.0',
-    //       //   'os' : 'Windows',
-    //       //   'os_version' : '10',
-    //       //   'resolution' : '1920x1200'
-    //       //   }
-    //       //   ,
-    //       //
-    //       //   {
-    //       //     ////////////////////////////////////////////// Windows 10 Edge 13.0 1920x1200 ///////////////////
-    //       //     //Browser Type
-    //       //     'os': 'Windows',
-    //       //     'os_version': '10',
-    //       //     'browserName': 'Edge',
-    //       //     'browser_version': '13.0',
-    //       //     'resolution': '1920x1200'
-    //       //   }
-    //       //   ,
-    //       //   {
-    //       //     ////////////////////////////////////////////// Windows 10 Chrome 54.0 1920x1200 ///////////////////
-    //       //     //Browser Type
-    //       //   'os': 'Windows',
-    //       //   'os_version': '10',
-    //       //   'browserName': 'Chrome',
-    //       //   'browser_version': '54.0',
-    //       //   'resolution': '1920x1200'
-    //       //   }
+    //         ,
+    //       {
+    //           ////////////////////////////////////////////// Windows 10 Firefox 50.0  1920x1200 ///////////////////
+    //           // Browser Type
+    //           'os': 'Windows',
+    //           'os_version': '10',
+    //           'browserName': 'Firefox',
+    //           'browser_version': '50.0 beta',
+    //           'resolution': '1920x1200'
+    //       }
+    //       ,
+    //       {
+    //           ////////////////////////////////////////////// Windows 7 FireFox 49.0  1920x1200 ///////////////////
+    //           //Browser Type
+    //           'os': 'Windows',
+    //           'os_version': '7',
+    //           'browserName': 'Firefox',
+    //           'browser_version': '49.0',
+    //           'resolution': '1920x1200'
+    //       }
+    //       ,
+    //       {
+    //         ////////////////////////////////////////////// Windows 7 Chrome 54.0  1920x1200 ///////////////////
+    //          // Browser Type
+    //          'os': 'Windows',
+    //          'os_version': '7',
+    //          'browserName': 'Chrome',
+    //          'browser_version': '54.0',
+    //          'resolution': '1920x1200'//,
+    //
+    //         // 'chromeOptions': {
+    //         //     'excludeSwitches': ["disable-popup-blocking"]
+    //         // }
+    //
+    //         // 'chromeOptions': {
+    //         //     'args': ["--disable-popup-blocking"]
+    //         // }
+    //         }
+    //         ,
+    //         {
+    //         ////////////////////////////////////////////// Windows 7 IE 11.0  1920x1200 ///////////////////
+    //         // Browser Type
+    //         'os': 'Windows',
+    //         'os_version': '7',
+    //         'browserName': 'IE',
+    //         'browser_version': '11.0',
+    //         'resolution': '1920x1200'
+    //         }
+    //        ,
+    //
+    //         {
+    //         ////////////////////////////////////////////// Windows 10 IE 11.0 1920x1200 ///////////////////
+    //         //Browser Type
+    //         'browserName' : 'IE',
+    //         'browser_version' : '11.0',
+    //         'os' : 'Windows',
+    //         'os_version' : '10',
+    //         'resolution' : '1920x1200'
+    //         }
+    //         ,
+    //
+    //         {
+    //           ////////////////////////////////////////////// Windows 10 Edge 13.0 1920x1200 ///////////////////
+    //           //Browser Type
+    //           'os': 'Windows',
+    //           'os_version': '10',
+    //           'browserName': 'Edge',
+    //           'browser_version': '13.0',
+    //           'resolution': '1920x1200'
+    //         }
+    //        ,
+    //         {
+    //           ////////////////////////////////////////////// Windows 10 Chrome 54.0 1920x1200 ///////////////////
+    //           //Browser Type
+    //         'os': 'Windows',
+    //         'os_version': '10',
+    //         'browserName': 'Chrome',
+    //         'browser_version': '54.0',
+    //         'resolution': '1920x1200'
+    //         }
     // ],
 
     capabilities: {
     //46.0b9
-    'browserName': 'firefox'
+    //'browserName': 'firefox'
     //53.0.2785.89
-    //'browserName': 'chrome'
+    'browserName': 'chrome'
     },
+
+    // // Code to start browserstack local before start of test
+    // beforeLaunch: function(){
+    //     console.log("Connecting local");
+    //     return new Promise(function(resolve, reject){
+    //         exports.bs_local = new browserstack.Local();
+    //         exports.bs_local.start({'key': exports.config.capabilities['browserstack.key'] }, function(error) {
+    //             if (error) return reject(error);
+    //             console.log('Connected. Now testing...');
+    //
+    //             resolve();
+    //         });
+    //     });
+    // },
+    //
+    // // Code to stop browserstack local after end of test
+    // afterLaunch: function(){
+    //     return new Promise(function(resolve, reject){
+    //         exports.bs_local.stop(resolve);
+    //     });
+    // },
 
     directConnect: true, //Protractor can test directly against Chrome and Firefox without using a Selenium Server
 
@@ -196,8 +221,8 @@ exports.config = {
         // require: ['/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/support/JsonOutputHook.js'],
 
         require: ['/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/TestAutomation/e2e/features/step_definitions/my_steps.js' ],
-        //format: 'pretty',
-        format: 'json',
+        format: 'pretty',
+        //format: 'json',
 
         tags: false, //leave it false works.
 

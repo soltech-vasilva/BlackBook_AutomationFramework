@@ -1,4 +1,4 @@
-Feature: Buy Event Ticket
+Feature:  End testcase
 
-  Scenario: Buy Event Tickets
+  Scenario:  End testcase
     Given I END Test case

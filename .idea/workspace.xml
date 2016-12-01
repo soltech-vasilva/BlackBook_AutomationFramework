@@ -2,7 +2,110 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="760bc51e-978d-479b-90e6-7a4e7ee1daf7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/browserstack-local/.eslintrc.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/browserstack-local/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/browserstack-local/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/browserstack-local/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/browserstack-local/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/browserstack-local/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/browserstack-local/lib/Local.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/browserstack-local/lib/LocalBinary.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/browserstack-local/lib/LocalError.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/browserstack-local/node-example.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/browserstack-local/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/browserstack-local/test/local.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formatio/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formatio/AUTHORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formatio/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formatio/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formatio/autolint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formatio/buster.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formatio/lib/formatio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formatio/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/formatio/test/formatio-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/is-running/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/is-running/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/is-running/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/is-running/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/is-running/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/is-running/test/dummyChild.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/is-running/test/running-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lolex/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lolex/.jslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lolex/.min-wd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lolex/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lolex/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lolex/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lolex/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lolex/lolex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lolex/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lolex/script/ci-test.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lolex/src/lolex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lolex/test/lolex-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/samsam/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/samsam/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/samsam/AUTHORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/samsam/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/samsam/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/samsam/autolint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/samsam/jsTestDriver.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/samsam/lib/samsam.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/samsam/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/samsam/test/samsam-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/AUTHORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/Changelog.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/assert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/behavior.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/call.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/collection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/extend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/log_error.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/match.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/mock.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/sandbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/spy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/stub.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/test_case.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/times_in_words.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/typeOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/util/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/util/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/util/fake_server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/util/fake_server_with_clock.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/util/fake_timers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/util/fake_xdomain_request.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/util/fake_xml_http_request.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/util/timers_ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/util/xdr_ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/util/xhr_ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/lib/sinon/walk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/pkg/sinon-1.17.6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/pkg/sinon-ie-1.17.6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/pkg/sinon-ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/pkg/sinon-server-1.17.6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/pkg/sinon-server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sinon/pkg/sinon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/temp-fs/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/temp-fs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/temp-fs/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/temp-fs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BrowserStackLocal" afterPath="$PROJECT_DIR$/BrowserStackLocal" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/Page/CaptureBrowserCapabilities.js" afterPath="$PROJECT_DIR$/TestAutomation/e2e/features/Page/CaptureBrowserCapabilities.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/Page/Dashboard.js" afterPath="$PROJECT_DIR$/TestAutomation/e2e/features/Page/Dashboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/Page/EyesSetUp.js" afterPath="$PROJECT_DIR$/TestAutomation/e2e/features/Page/EyesSetUp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/Repository/DashboardRepo.js" afterPath="$PROJECT_DIR$/TestAutomation/e2e/features/Repository/DashboardRepo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/END_TestCases.feature" afterPath="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/END_TestCases.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature" afterPath="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/START_TestCases.feature" afterPath="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/START_TestCases.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/protractor-conf.js" afterPath="$PROJECT_DIR$/TestAutomation/protractor-conf.js" />
     </list>
     <ignored path="BlackBook_AutomationFramework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +131,9 @@
       <file leaf-file-name="my_steps.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/step_definitions/my_steps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="70" column="31" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="35" />
-              <folding>
-                <element signature="e#646#708#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -40,60 +141,8 @@
       <file leaf-file-name="Dashboard.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/Dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="525">
-                <caret line="35" column="183" selection-start-line="35" selection-start-column="167" selection-end-line="35" selection-end-column="183" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CaptureBrowserCapabilities.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/CaptureBrowserCapabilities.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EyesSetUp.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/EyesSetUp.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="47" column="108" selection-start-line="47" selection-start-column="108" selection-end-line="47" selection-end-column="108" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DashboardRepo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Repository/DashboardRepo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+            <state relative-caret-position="90">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -104,8 +153,18 @@
       <file leaf-file-name="Clients.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/Clients.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DashboardRepo.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Repository/DashboardRepo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -116,11 +175,19 @@
       <file leaf-file-name="ClientsRepo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Repository/ClientsRepo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="START_TestCases.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/START_TestCases.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,21 +196,28 @@
         <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="protractor-conf.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CaptureBrowserCapabilities.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/CaptureBrowserCapabilities.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="protractor-conf.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestAutomation/protractor-conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-              <folding>
-                <marker date="1480442795000" expanded="true" signature="1201:1234" ph="..." />
-                <marker date="1480442795000" expanded="true" signature="1422:1423" ph="..." />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,21 +257,25 @@
         <option value="$PROJECT_DIR$/support/JsonOutputHook.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Repository/EyesSetUpRepo.js" />
-        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/START_TestCases.feature" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite1.feature" />
-        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/CaptureBrowserCapabilities.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/OpenSoltechWebsite.js" />
         <option value="$PROJECT_DIR$/reports/cucumber-test-results.json" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Repository/OpenSoltechWebsiteRepo.js" />
-        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/OpenCulturaLinkDashboard.js" />
-        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/Dashboard.js" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Repository/ClientsRepo.js" />
-        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/EyesSetUp.js" />
-        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/step_definitions/my_steps.js" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/Clients.js" />
+        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/END_TestCases.feature" />
+        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/START_TestCases.feature" />
+        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/EyesSetUp.js" />
+        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/Dashboard.js" />
         <option value="$PROJECT_DIR$/TestAutomation/protractor-conf.js" />
+        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/step_definitions/my_steps.js" />
+        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/CaptureBrowserCapabilities.js" />
+        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Utilities/CaptureBrowserCapabilities.js" />
+        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Utilities/EyesSetUp.js" />
+        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature" />
+        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Repository/DashboardRepo.js" />
       </list>
     </option>
   </component>
@@ -287,8 +365,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gulpfile.ts" />
-              <option name="myItemType" value="com.intellij.lang.typescript.compiler.ui.projectView.TypeScriptNestingTreeNode" />
+              <option name="myItemId" value="TestAutomation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -304,16 +382,102 @@
               <option name="myItemId" value="TestAutomation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e2e" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestCases" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlackBook_AutomationFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlackBook_AutomationFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestAutomation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e2e" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlackBook_AutomationFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlackBook_AutomationFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestAutomation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e2e" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlackBook_AutomationFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlackBook_AutomationFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestAutomation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e2e" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CulturaLink" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
@@ -322,21 +486,50 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TestAutomation/e2e/features/Utilities" />
+      <recent name="$PROJECT_DIR$/TestAutomation/e2e/features" />
+      <recent name="$PROJECT_DIR$/TestAutomation/e2e/features/Page" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/reports" />
-      <recent name="$PROJECT_DIR$/build/task" />
-      <recent name="$PROJECT_DIR$/TestAutomation/e2e" />
-      <recent name="$PROJECT_DIR$/test/e2e/features/TestCases" />
-      <recent name="$PROJECT_DIR$/test/e2e/features" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.BlackBook">
-    <configuration default="false" name="OpenWebsite.feature (1)" type="cucumber.js" factoryName="Cucumber.js" temporary="true">
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" value="" />
-      <option name="filePath" value="$PROJECT_DIR$/test/e2e/features/OpenWebsite.feature" />
+    <configuration default="false" name="CaptureBrowserCapabilities.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/TestAutomation/e2e/features/Utilities/CaptureBrowserCapabilities.js" application-parameters="$PROJECT_DIR$/test/protractor-conf.js" working-dir="$PROJECT_DIR$">
+      <profiling v8-profiler-path="" />
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+        <profiling v8-profiler-path="" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="EyesSetUp.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/TestAutomation/e2e/features/Utilities/EyesSetUp.js" application-parameters="$PROJECT_DIR$/test/protractor-conf.js" working-dir="$PROJECT_DIR$">
+      <profiling v8-profiler-path="" />
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+        <profiling v8-profiler-path="" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Dashboard.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/TestAutomation/e2e/features/Page/Dashboard.js" application-parameters="$PROJECT_DIR$/test/protractor-conf.js" working-dir="$PROJECT_DIR$">
+      <profiling v8-profiler-path="" />
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+        <profiling v8-profiler-path="" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="DashboardRepo.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/TestAutomation/e2e/features/Repository/DashboardRepo.js" application-parameters="$PROJECT_DIR$/test/protractor-conf.js" working-dir="$PROJECT_DIR$">
+      <profiling v8-profiler-path="" />
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+        <profiling v8-profiler-path="" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="my_steps.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/TestAutomation/e2e/features/step_definitions/my_steps.js" application-parameters="$PROJECT_DIR$/test/protractor-conf.js" working-dir="$PROJECT_DIR$">
+      <profiling v8-profiler-path="" />
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+        <profiling v8-profiler-path="" />
+      </EXTENSION>
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -364,7 +557,7 @@
     <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
       <option name="cucumberJsArguments" value="" />
       <option name="executablePath" value="" />
-      <option name="filePath" value="$PROJECT_DIR$/TestAutomation/e2e/features/Repository" />
+      <option name="filePath" value="$PROJECT_DIR$/TestAutomation/e2e/features/Page" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -427,22 +620,33 @@
       </EXTENSION>
       <method />
     </configuration>
-    <list size="6">
+    <list size="10">
       <item index="0" class="java.lang.String" itemvalue="Cucumber.js.Cucumber" />
       <item index="1" class="java.lang.String" itemvalue="Cucumber.js.TestCases" />
       <item index="2" class="java.lang.String" itemvalue="Cucumber.js.OpenWebsite.feature" />
       <item index="3" class="java.lang.String" itemvalue="Cucumber.js.TestCases (1)" />
       <item index="4" class="java.lang.String" itemvalue="Node.js.BlackBook" />
-      <item index="5" class="java.lang.String" itemvalue="Cucumber.js.OpenWebsite.feature (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.CaptureBrowserCapabilities.js" />
+      <item index="6" class="java.lang.String" itemvalue="Node.js.EyesSetUp.js" />
+      <item index="7" class="java.lang.String" itemvalue="Node.js.Dashboard.js" />
+      <item index="8" class="java.lang.String" itemvalue="Node.js.DashboardRepo.js" />
+      <item index="9" class="java.lang.String" itemvalue="Node.js.my_steps.js" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.js.OpenWebsite.feature (1)" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.CaptureBrowserCapabilities.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.EyesSetUp.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.my_steps.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.DashboardRepo.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.Dashboard.js" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -467,7 +671,8 @@
       <workItem from="1479905208160" duration="22874000" />
       <workItem from="1480073317305" duration="11639000" />
       <workItem from="1480334603473" duration="22418000" />
-      <workItem from="1480505477740" duration="4000" />
+      <workItem from="1480505477740" duration="18661000" />
+      <workItem from="1480601116852" duration="1178000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1478621310570</created>
@@ -589,9 +794,12 @@
     <history-entry file="TestCases_(1) - 2016.11.15 at 08h 53m 11s.xml">
       <configuration name="TestCases (1)" configurationId="cucumber.js" />
     </history-entry>
+    <history-entry file="Utilities - 2016.12.01 at 09h 07m 32s.xml">
+      <configuration name="Utilities" configurationId="cucumber.js" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172116000" />
+    <option name="totallyTimeSpent" value="191951000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -604,24 +812,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1336" height="745" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26159695" sideWeight="0.7153465" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26159695" sideWeight="0.7153465" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3767228" sideWeight="0.5301297" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.49695122" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35528332" sideWeight="0.47444698" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2486692" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.381317" sideWeight="0.46987033" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24790236" sideWeight="0.28465346" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35528332" sideWeight="0.47444698" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -688,21 +897,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/protractor-cucumber/example/features/step_definitions/steps.js" />
-    <entry file="file://$PROJECT_DIR$/inspection/Default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1701" column="0" selection-start-line="1701" selection-start-column="0" selection-end-line="1701" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-browsers.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -795,6 +989,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="52" column="19" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -883,13 +1078,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Repository/EyesSetUpRepo.js" />
     <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/Repository/SearchPageRepo.js" />
-    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/START_TestCases.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reports/cucumber-test-results.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
@@ -911,71 +1099,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/END_TestCases.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/EyesSetUp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="47" column="108" selection-start-line="47" selection-start-column="108" selection-end-line="47" selection-end-column="108" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/Clients.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/step_definitions/my_steps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="70" column="31" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="35" />
-          <folding>
-            <element signature="e#646#708#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Repository/ClientsRepo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Repository/DashboardRepo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -990,20 +1113,58 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/CaptureBrowserCapabilities.js">
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/END_TestCases.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/START_TestCases.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Utilities/EyesSetUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Utilities/CaptureBrowserCapabilities.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="161" selection-start-line="8" selection-start-column="161" selection-end-line="8" selection-end-column="161" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/step_definitions/my_steps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/Clients.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/Dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
@@ -1012,11 +1173,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestAutomation/protractor-conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        <state relative-caret-position="165">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Utilities/CaptureBrowserCapabilities.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Utilities/EyesSetUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Repository/ClientsRepo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/CaptureBrowserCapabilities.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Repository/DashboardRepo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
-            <marker date="1480442795000" expanded="true" signature="1201:1234" ph="..." />
-            <marker date="1480442795000" expanded="true" signature="1422:1423" ph="..." />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>

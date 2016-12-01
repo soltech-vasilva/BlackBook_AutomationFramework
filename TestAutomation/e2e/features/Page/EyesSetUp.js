@@ -13,7 +13,7 @@ var ProtractorConfig = require ('/Users/Vsilva/WebstormProjects/BlackBook_Automa
 var EyesSetUp = function EyesSetUp(){
 
     EyesSetUp.prototype.EyesInitialSetUp = function (eyes) {
-        eyes.setBranchName('BranchName CulturaLink');
+        eyes.setBranchName('BranchName CulturaLink',1);
         eyes.setForceFullPageScreenshot(true);
         eyes.setStitchMode(Eyes.StitchMode.CSS);
         //eyes.setMatchLevel('Layout2');

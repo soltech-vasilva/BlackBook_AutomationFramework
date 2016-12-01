@@ -1,5 +1,5 @@
-Feature: Buy Event Ticket
+Feature: Open Website
 
-  Scenario: Buy Event Tickets
+  Scenario:  Open Website
     Given I enter CulturalLink Website
-    Then I click on Clients button menu
+    #Then I click on Clients button menu

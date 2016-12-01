@@ -16,7 +16,7 @@ var OpenCulturaLinikDashboard = function OpenCulturaLinikDashboard(){
        //page is non-angular
        browser.ignoreSynchronization = true;
        //Open CulturaLink website
-       browser.get(DashboardRepo.CulturaLinkUrl);
+       browser.driver.get(DashboardRepo.CulturaLinkUrl);
        //browser.manage().window().maximize();  //comment out since Applitool does not like on firefox both.
        browser.sleep(2000);
        //Click on Logo image
