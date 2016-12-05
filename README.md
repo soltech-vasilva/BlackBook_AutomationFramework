@@ -41,8 +41,28 @@ Elementor
 1.  npm install protractor -g
 2.  To run elementor $ elementor https://angularjs.org'
 3. it will open chrome and you able to get elements.
+*********************************************************
 
+Adding Developer machine setup (Blackbook) test framework
+run backend:
+1.Get the latest build (got temp binaries)
+2. got to src/service
+3. npm install
+4. gulp
+check localhost:3002 "hellow world"
 
+run front end:
+1. go to src/ui
+2. npm install 
+3. gulp
+localhost:3001
+ui  localhost:3001/user
+*********************************************************
+run latest Cultural Link
+1. get the latest
+2. npm install
+3. gulp
+4. npm start
 ***********************************************************
 Adding Developer machine setup (Cultural Link) test framework
 1.https://nodejs.org/en/download/package-manager/ (have not install it yet)

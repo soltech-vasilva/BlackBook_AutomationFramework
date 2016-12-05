@@ -22,7 +22,28 @@ var OpenBlackBookDashboard = function OpenBlackBookDashboard(){
        eyesSetUp.EyesCheckWindow(eyes, BB_dashboardRepo.EyesVerify_BB_Dashboard,protractorConfig.config.ApplitoolsOn);
    };
 
-   // OpenBlackBookDashboard.prototype.closeAdsOnSoltechMainPage = function ()
+   OpenBlackBookDashboard.prototype.Enter_FirstName = function (firstName) {
+        BB_dashboardRepo.Select_Element_FirstNameTextbox.click();
+        BB_dashboardRepo.Select_Element_FirstNameTextbox.sendKeys(firstName);
+   };
+
+    OpenBlackBookDashboard.prototype.Enter_LastName = function (lastName) {
+        BB_dashboardRepo.Select_Element_LastNameTextbox.click();
+        BB_dashboardRepo.Select_Element_LastNameTextbox.sendKeys(lastName);
+    };
+
+    OpenBlackBookDashboard.prototype.Enter_EmailAddress = function (emailAddress) {
+        BB_dashboardRepo.Select_Element_EmailAddressTextbox.click();
+        BB_dashboardRepo.Select_Element_EmailAddressTextbox.sendKeys(emailAddress);
+    };
+
+    OpenBlackBookDashboard.prototype.Enter_PhoneNumber = function (phoneNumber) {
+        BB_dashboardRepo.Select_Element_PhoneNumberTextbox.click();
+        BB_dashboardRepo.Select_Element_PhoneNumberTextbox.sendKeys(phoneNumber);
+        BB_dashboardRepo.Select_Element_FirstNameTextbox.click();
+    };
+
+        // OpenBlackBookDashboard.prototype.closeAdsOnSoltechMainPage = function ()
    // {
    //    //  var displayed ='hhhhhh';
    //    //

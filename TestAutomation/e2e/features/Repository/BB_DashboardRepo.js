@@ -14,6 +14,9 @@ var OpenBlackBookWebsiteRepo = function OpenBlackBookWebsiteRepo () {
     OpenBlackBookWebsiteRepo.prototype.BlackBookUrl = 'http://localhost:3000/user';
 
     //Components
-    // ClientsRepo.prototype.Select_Element_SoltechLogo  = element(by.xpath('//*[@id="masthead"]/div/div[1]/a'));
+    OpenBlackBookWebsiteRepo.prototype.Select_Element_FirstNameTextbox  = element(by.css('input[ng-reflect-name="firstName"]'));
+    OpenBlackBookWebsiteRepo.prototype.Select_Element_LastNameTextbox = element(by.css('input[ng-reflect-name="lastName"]'));
+    OpenBlackBookWebsiteRepo.prototype.Select_Element_EmailAddressTextbox = element(by.css('input[ng-reflect-name="username"]'));
+    OpenBlackBookWebsiteRepo.prototype.Select_Element_PhoneNumberTextbox = element(by.css('input[ng-reflect-name="phoneNumber"]'));
 };
 module.exports = new OpenBlackBookWebsiteRepo ();
