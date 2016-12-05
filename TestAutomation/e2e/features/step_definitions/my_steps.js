@@ -50,6 +50,17 @@ var myBlackBookSteps = function myBlackBookSteps() {
     //     }
     // });
 
+    this.Before(function (callback) {
+        captureBrowserCapabilities.captureCurrentBrowserCapabilities(eyes);
+        callback();
+    });
+
+    this.After(function(callback)
+    {
+        eyesSetUp.EyesClose_EndTestcase(eyes);
+        callback();
+    });
+
     this.Given(/^I enter BlackBook Website$/, function (callback)
     {
         BB_dashboard.OpenBlackBookDashboard(eyes);
@@ -64,6 +75,37 @@ var myBlackBookSteps = function myBlackBookSteps() {
     this.Given(/^I START Test case$/, function (callback) {
         captureBrowserCapabilities.captureCurrentBrowserCapabilities(eyes);
         callback();
+    });
+
+    this.When(/^I enter my first name (.*)$/, function (firstName, callback) {
+        BB_dashboard.Enter_FirstName(firstName);
+        callback();
+    });
+
+    this.When(/^I enter my last name (.*)$/, function (lastName , callback) {
+        BB_dashboard.Enter_LastName(lastName);
+        callback();
+    });
+
+    this.When(/^I enter my email address (.*)$/, function (emailAddress, callback) {
+        BB_dashboard.Enter_EmailAddress(emailAddress);
+        callback();
+    });
+
+    this.When(/^I enter my phone number (.*)$/, function (phoneNumber, callback) {
+        BB_dashboard.Enter_PhoneNumber(phoneNumber );
+        browser.sleep(2000);
+        callback();
+    });
+
+    this.When(/^I click Cancel Button$/, function (callback) {
+        element(by.buttonText('Cancel')).click();
+        browser.sleep(2000);
+        callback();
+    });
+
+    this.Then(/^I should not see any error displayed$/, function (callback) {
+        callback.pending();
     });
 };
 

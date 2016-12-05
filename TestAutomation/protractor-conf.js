@@ -13,16 +13,14 @@ exports.config = {
 
     //Running Test Cases in specific order.
     specs: [
-        //always leave START_TestCases
-        'e2e/features/TestCases/START_TestCases.feature',
-
         //add test cases here below:
-        'e2e/features/TestCases/OpenWebsite.feature',
-
-
-        //always leave END_TestCases
-        'e2e/features/TestCases/END_TestCases.feature'//,
+        'e2e/features/TestCases/OpenWebsite1.feature'//,
     ],
+
+
+    // suites: {
+    //     smoke:  'e2e/features/TestCases/OpenWebsite1.feature'//,
+    // },
 
     //BrowserStack
     //seleniumAddress: 'http://hub.browserstack.com/wd/hub',
@@ -174,9 +172,9 @@ exports.config = {
 
     capabilities: {
     //46.0b9
-    //'browserName': 'firefox'
+    'browserName': 'firefox'
     //53.0.2785.89
-    'browserName': 'chrome'
+    //'browserName': 'chrome'
     },
 
     // // Code to start browserstack local before start of test
@@ -210,19 +208,20 @@ exports.config = {
 
     framework: 'cucumber',
 
-    //relevant cucumber command line options
+//relevant cucumber command line options
     cucumberOpts: {
 
-
         //format: "summary", //simple format
-       // format: 'pretty',
+
 
         //require: [paths.distFiles, paths.support],
         // require: ['/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/support/JsonOutputHook.js'],
 
         require: ['/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/TestAutomation/e2e/features/step_definitions/my_steps.js' ],
-        format: 'pretty',
+         format: 'pretty',
+        // format: 'progress',
         //format: 'json',
+        //format: 'summary',
 
         tags: false, //leave it false works.
 
