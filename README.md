@@ -33,7 +33,8 @@ for individual task see number step 8 . run all task $ gulp
 7. to create this file cucumber-test-results.json , just run
 // require: ['/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/support/JsonOutputHook.js'],
  //format: 'json',        
-8. Coppy cucumber output to /Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/reports/cucumber-test-results.json . Then, this is to run from json to html $ gulp e2e-report 
+8. Coppy cucumber output to /Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/reports/cucumber-test-results.json . 
+Then, this is to run from json to html $ gulp e2e-report 
 9. Click on file , then , Open browser through icons on webstorm 
 ************************************************************
 Elementor

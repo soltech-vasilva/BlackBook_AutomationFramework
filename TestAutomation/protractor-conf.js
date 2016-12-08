@@ -5,7 +5,7 @@ var browserstack = require('browserstack-local');
 exports.config = {
 
     //specs: [
-    //'e2e/features/*.feature'
+    //'e2e/features/TestCases/*.feature'
     // ],
 
     //Turn off applitool
@@ -14,7 +14,7 @@ exports.config = {
     //Running Test Cases in specific order.
     specs: [
         //add test cases here below:
-        'e2e/features/TestCases/OpenWebsite1.feature'//,
+        'e2e/features/TestCases/OpenWebsite.feature'//,
     ],
 
 
@@ -218,9 +218,9 @@ exports.config = {
         // require: ['/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/support/JsonOutputHook.js'],
 
         require: ['/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/TestAutomation/e2e/features/step_definitions/my_steps.js' ],
-         format: 'pretty',
-        // format: 'progress',
-        //format: 'json',
+         //format: 'pretty',
+         //format: 'progress',
+        format: 'json',
         //format: 'summary',
 
         tags: false, //leave it false works.

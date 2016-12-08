@@ -67,16 +67,6 @@ var myBlackBookSteps = function myBlackBookSteps() {
         callback();
     });
 
-    this.Given(/^I END Test case$/, function (callback) {
-        eyesSetUp.EyesClose_EndTestcase(eyes);
-        callback();
-    });
-
-    this.Given(/^I START Test case$/, function (callback) {
-        captureBrowserCapabilities.captureCurrentBrowserCapabilities(eyes);
-        callback();
-    });
-
     this.When(/^I enter my first name (.*)$/, function (firstName, callback) {
         BB_dashboard.Enter_FirstName(firstName);
         callback();
@@ -94,18 +84,27 @@ var myBlackBookSteps = function myBlackBookSteps() {
 
     this.When(/^I enter my phone number (.*)$/, function (phoneNumber, callback) {
         BB_dashboard.Enter_PhoneNumber(phoneNumber );
-        browser.sleep(2000);
         callback();
     });
 
     this.When(/^I click Cancel Button$/, function (callback) {
         element(by.buttonText('Cancel')).click();
-        browser.sleep(2000);
         callback();
     });
 
-    this.Then(/^I should not see any error displayed$/, function (callback) {
-        callback.pending();
+    this.Then(/^I should see "([^"]*)" errors "([^"]*)" displayed$/, function (str_TextboxName, str_VerifyErrorName, callback) {
+        BB_dashboard.Verify_ErrorMessageToDisplayEmptyFields(str_TextboxName, str_VerifyErrorName);
+        callback();
+    });
+
+    this.Then(/^I should not see in "([^"]*)" errors displayed$/, function (str_TextboxName, callback) {
+        BB_dashboard.Verify_ErrorMessagesNotToDisplay(str_TextboxName);
+        callback();
+    });
+
+    this.Then(/^I should see "([^"]*)" errors "([^"]*)" displayed for this "([^"]*)" field$/, function (str_TextboxName, str_VerifyErrorName, FilledOrEmptyField, callback) {
+        BB_dashboard.Verify_ErrorMessageToDisplay(str_TextboxName, str_VerifyErrorName, FilledOrEmptyField);
+        callback();
     });
 };
 

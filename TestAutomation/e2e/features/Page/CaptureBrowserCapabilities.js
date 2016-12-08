@@ -21,11 +21,24 @@ var CaptureBrowserCapabilities = function CaptureBrowserCapabilities()
     CaptureBrowserCapabilities.prototype.captureCurrentBrowserCapabilities = function (eyes) {
         browser.getCapabilities().then(function (capability) {
 
-            try {
-                this.currentBrowserName = protractorConfig.config.capabilities.browserName;
-                this.currentOSName = capability.get('platform');
-            }
-            catch (e) {
+            // try {
+            //     this.currentBrowserName = protractorConfig.config.capabilities.browserName;
+            //     this.currentOSName = capability.get('platform');
+            // }
+            // catch (e) {
+            //     this.currentBrowserName = capability.get('browserName');
+            //     this.currentOSVersion = capability.get('os_version');
+            //     this.currentOSName = capability.get('os');
+            //
+            //     if (this.currentOSName === undefined)
+            //     {
+            //         this.currentOSName = capability.get('platform');
+            //         this.currentOSName ='';
+            //     }
+            // }
+
+            if (typeof protractorConfig.config.capabilities.browserName == "undefined")
+            {
                 this.currentBrowserName = capability.get('browserName');
                 this.currentOSVersion = capability.get('os_version');
                 this.currentOSName = capability.get('os');
@@ -35,6 +48,10 @@ var CaptureBrowserCapabilities = function CaptureBrowserCapabilities()
                     this.currentOSName = capability.get('platform');
                     this.currentOSName ='';
                 }
+            }
+            else {
+                this.currentBrowserName = protractorConfig.config.capabilities.browserName;
+                this.currentOSName = capability.get('platform');
             }
 
             if (this.currentOSVersion === undefined)
@@ -49,12 +66,12 @@ var CaptureBrowserCapabilities = function CaptureBrowserCapabilities()
             this.currentBrowserVersion = capability.get('version');
             this.currentWidthTestResolution = protractorConfig.config.width;
             this.currentHeightTestResolution = protractorConfig.config.height;
-            console.log(this.currentBrowserName);
-            console.log(this.currentBrowserVersion);
-            console.log(this.currentOSName);
-            console.log(this.currentWidthTestResolution);
-            console.log(this.currentHeightTestResolution);
-            console.log(this.currentOSVersion);
+            // console.log(this.currentBrowserName);
+            // console.log(this.currentBrowserVersion);
+            // console.log(this.currentOSName);
+            // console.log(this.currentWidthTestResolution);
+            // console.log(this.currentHeightTestResolution);
+            // console.log(this.currentOSVersion);
 
          if (protractorConfig.config.ApplitoolsOn == true) {
              eyesSetUp.EyesInitialSetUp(eyes);

@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="760bc51e-978d-479b-90e6-7a4e7ee1daf7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Vsilva.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite1.feature" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/END_TestCases.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/START_TestCases.feature" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reports/e2e/cucumber-test-results_11_8_16.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite1.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/e2e/cucumber-test-results.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/Page/BB_Dashboard.js" afterPath="$PROJECT_DIR$/TestAutomation/e2e/features/Page/BB_Dashboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/Page/CaptureBrowserCapabilities.js" afterPath="$PROJECT_DIR$/TestAutomation/e2e/features/Page/CaptureBrowserCapabilities.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/Repository/BB_DashboardRepo.js" afterPath="$PROJECT_DIR$/TestAutomation/e2e/features/Repository/BB_DashboardRepo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature" afterPath="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/step_definitions/my_steps.js" afterPath="$PROJECT_DIR$/TestAutomation/e2e/features/step_definitions/my_steps.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/protractor-conf.js" afterPath="$PROJECT_DIR$/TestAutomation/protractor-conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/cucumber-test-results.json" afterPath="$PROJECT_DIR$/reports/cucumber-test-results.json" />
     </list>
     <ignored path="BlackBook_AutomationFramework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +39,8 @@
       <file leaf-file-name="my_steps.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/step_definitions/my_steps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+            <state relative-caret-position="283">
+              <caret line="107" column="7" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
               <folding>
                 <element signature="e#606#668#0" expanded="false" />
               </folding>
@@ -50,11 +51,11 @@
       <file leaf-file-name="BB_Dashboard.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/BB_Dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+            <state relative-caret-position="-195">
+              <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
-                <element signature="e#2006#2081#0" expanded="false" />
+                <element signature="e#7727#7766#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -64,8 +65,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="217">
-                <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+              <first_editor relative-caret-position="247">
+                <caret line="36" column="57" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="57" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -76,11 +77,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="cucumber-test-results_11_8_16.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reports/e2e/cucumber-test-results_11_8_16.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-255">
+              <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BB_DashboardRepo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Repository/BB_DashboardRepo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            <state relative-caret-position="182">
+              <caret line="26" column="174" selection-start-line="26" selection-start-column="174" selection-end-line="26" selection-end-column="174" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -91,8 +102,8 @@
       <file leaf-file-name="EyesSetUp.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/EyesSetUp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="206">
+              <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -101,19 +112,11 @@
       <file leaf-file-name="OpenWebsite.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpenWebsite1.feature" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite1.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="975">
+              <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
+              <folding>
+                <marker date="1481201115000" expanded="true" signature="3773:4644" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,8 +124,8 @@
       <file leaf-file-name="CaptureBrowserCapabilities.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/CaptureBrowserCapabilities.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-585">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="765">
+              <caret line="73" column="50" selection-start-line="68" selection-start-column="10" selection-end-line="73" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -131,8 +134,18 @@
       <file leaf-file-name="protractor-conf.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestAutomation/protractor-conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="220" column="8" selection-start-line="220" selection-start-column="8" selection-end-line="220" selection-end-column="8" />
+            <state relative-caret-position="45">
+              <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cucumber-test-results.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reports/cucumber-test-results.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -173,7 +186,6 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Repository/EyesSetUpRepo.js" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/OpenSoltechWebsite.js" />
-        <option value="$PROJECT_DIR$/reports/cucumber-test-results.json" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Repository/OpenSoltechWebsiteRepo.js" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/OpenCulturaLinkDashboard.js" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Repository/ClientsRepo.js" />
@@ -186,14 +198,15 @@
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/Dashboard.js" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Repository/DashboardRepo.js" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/EyesSetUp.js" />
-        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/CaptureBrowserCapabilities.js" />
+        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite1.feature" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Repository/BB_DashboardRepo.js" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/BB_Dashboard.js" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature" />
-        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite1.feature" />
-        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/step_definitions/my_steps.js" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/CaptureBrowserCapabilities.js" />
         <option value="$PROJECT_DIR$/TestAutomation/protractor-conf.js" />
+        <option value="$PROJECT_DIR$/reports/cucumber-test-results.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/step_definitions/my_steps.js" />
       </list>
     </option>
   </component>
@@ -208,7 +221,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1338" />
+    <option name="width" value="1336" />
     <option name="height" value="745" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -255,7 +268,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -392,14 +404,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlackBook_AutomationFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlackBook_AutomationFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="support" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlackBook_AutomationFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlackBook_AutomationFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlackBook_AutomationFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlackBook_AutomationFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e2e" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BlackBook" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
@@ -407,15 +466,15 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/TestAutomation" />
       <recent name="$PROJECT_DIR$/TestAutomation/e2e/features" />
       <recent name="$PROJECT_DIR$/TestAutomation/e2e/features/Utilities" />
       <recent name="$PROJECT_DIR$/TestAutomation/e2e/features/Page" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.BlackBook">
@@ -478,7 +537,7 @@
     <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
       <option name="cucumberJsArguments" value="" />
       <option name="executablePath" value="" />
-      <option name="filePath" value="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite1.feature" />
+      <option name="filePath" value="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -595,7 +654,9 @@
       <workItem from="1480505477740" duration="18661000" />
       <workItem from="1480601116852" duration="6116000" />
       <workItem from="1480612031816" duration="18975000" />
-      <workItem from="1480938899624" duration="5010000" />
+      <workItem from="1480938899624" duration="13397000" />
+      <workItem from="1480967286758" duration="258000" />
+      <workItem from="1480967837685" duration="59368000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1478621310570</created>
@@ -728,7 +789,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220874000" />
+    <option name="totallyTimeSpent" value="288887000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -740,18 +801,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1338" height="745" extended-state="0" />
+    <frame x="0" y="23" width="1336" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2604404" sideWeight="0.7153465" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24182509" sideWeight="0.7012346" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840237" sideWeight="0.497006" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35502958" sideWeight="0.5284431" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34609494" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.49695122" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36753446" sideWeight="0.47155687" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4073507" sideWeight="0.47155687" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2486692" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.381317" sideWeight="0.46987033" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24790236" sideWeight="0.28465346" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.381317" sideWeight="0.46987033" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24182509" sideWeight="0.29876542" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -762,22 +823,22 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840237" sideWeight="0.497006" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3767228" sideWeight="0.5301297" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35502958" sideWeight="0.5284431" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.49695122" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35528332" sideWeight="0.47444698" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.381317" sideWeight="0.46987033" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26159695" sideWeight="0.7153465" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38591117" sideWeight="0.47155687" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.381317" sideWeight="0.46987033" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24182509" sideWeight="0.7012346" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34609494" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2486692" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24790236" sideWeight="0.28465346" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24182509" sideWeight="0.29876542" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -827,13 +888,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/gulp-protractor-cucumber-html-report/templates/header_template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/gulp-protractor-cucumber-html-report/templates/scenario_template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -891,7 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="52" column="19" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,20 +1026,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Repository/EyesSetUpRepo.js" />
     <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/Repository/SearchPageRepo.js" />
-    <entry file="file://$PROJECT_DIR$/reports/cucumber-test-results.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reports/e2e/cucumber-test-results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1007,43 +1046,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Repository/ClientsRepo.js" />
     <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/Clients.js" />
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/START_TestCases.feature" />
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/END_TestCases.feature" />
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite1.feature" />
+    <entry file="file://$PROJECT_DIR$/node_modules/protractor/bin/elementexplorer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/promise.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="125">
           <caret line="1701" column="0" selection-start-line="1701" selection-start-column="0" selection-end-line="1701" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/START_TestCases.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/END_TestCases.feature">
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/EyesSetUp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="206">
+          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/step_definitions/my_steps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
-          <folding>
-            <element signature="e#606#668#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Repository/BB_DashboardRepo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        <state relative-caret-position="182">
+          <caret line="26" column="174" selection-start-line="26" selection-start-column="174" selection-end-line="26" selection-end-column="174" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
@@ -1052,28 +1085,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/CaptureBrowserCapabilities.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-585">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="765">
+          <caret line="73" column="50" selection-start-line="68" selection-start-column="10" selection-end-line="73" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/BB_Dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+        <state relative-caret-position="-195">
+          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
-            <element signature="e#2006#2081#0" expanded="false" />
+            <element signature="e#7727#7766#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
+          <folding>
+            <marker date="1481201115000" expanded="true" signature="3773:4644" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/cucumber-test-results.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="217">
-            <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+          <first_editor relative-caret-position="247">
+            <caret line="36" column="57" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="57" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1085,32 +1136,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestAutomation/protractor-conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="220" column="8" selection-start-line="220" selection-start-column="8" selection-end-line="220" selection-end-column="8" />
+        <state relative-caret-position="45">
+          <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/EyesSetUp.js">
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/step_definitions/my_steps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="283">
+          <caret line="107" column="7" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
+          <folding>
+            <element signature="e#606#668#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature">
+    <entry file="file://$PROJECT_DIR$/reports/e2e/cucumber-test-results_11_8_16.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite1.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="-255">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
           <folding />
         </state>
       </provider>

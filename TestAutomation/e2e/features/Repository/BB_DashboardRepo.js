@@ -18,5 +18,16 @@ var OpenBlackBookWebsiteRepo = function OpenBlackBookWebsiteRepo () {
     OpenBlackBookWebsiteRepo.prototype.Select_Element_LastNameTextbox = element(by.css('input[ng-reflect-name="lastName"]'));
     OpenBlackBookWebsiteRepo.prototype.Select_Element_EmailAddressTextbox = element(by.css('input[ng-reflect-name="username"]'));
     OpenBlackBookWebsiteRepo.prototype.Select_Element_PhoneNumberTextbox = element(by.css('input[ng-reflect-name="phoneNumber"]'));
+
+
+    //Components "ERROR DISPLAY REQUIRE"
+    OpenBlackBookWebsiteRepo.prototype.Select_Xpath_ERRORMESSAGE_FirstName = by.xpath('//*[@id="page-box"]/user-profile/div/div/div[1]/form/div[1]/div[2]/div/error-msg/span');
+    OpenBlackBookWebsiteRepo.prototype.Select_Xpath_ERRORMESSAGE_LastName = by.xpath('//*[@id="page-box"]/user-profile/div/div/div[1]/form/div[1]/div[3]/div/error-msg/span');
+    OpenBlackBookWebsiteRepo.prototype.Select_xpath_ERRORMESSAGE_Email = by.xpath('//*[@id="page-box"]/user-profile/div/div/div[1]/form/div[1]/div[4]/div/error-msg/span');
+    OpenBlackBookWebsiteRepo.prototype.Select_xpath_ERRORMESSAGE_PhoneNumber = by.xpath('//*[@id="page-box"]/user-profile/div/div/div[1]/form/div[1]/div[5]/div/error-msg/span');
+    OpenBlackBookWebsiteRepo.prototype.Select_Element_ERRORMESSAGE_FirstName = element(this.Select_Xpath_ERRORMESSAGE_FirstName);
+    OpenBlackBookWebsiteRepo.prototype.Select_Element_ERRORMESSAGE_LastName = element(this.Select_Xpath_ERRORMESSAGE_LastName);
+    OpenBlackBookWebsiteRepo.prototype.Select_Element_ERRORMESSAGE_Email = element( this.Select_xpath_ERRORMESSAGE_Email);
+    OpenBlackBookWebsiteRepo.prototype.Select_Element_ERRORMESSAGE_PhoneNumber = element( this.Select_xpath_ERRORMESSAGE_PhoneNumber);
 };
 module.exports = new OpenBlackBookWebsiteRepo ();

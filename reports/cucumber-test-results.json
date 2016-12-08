@@ -1,92 +1,3013 @@
 [
-  {
-    "id": "Buy-Event-Ticket",
-    "name": "Buy Event Ticket",
-    "description": "",
-    "line": 1,
-    "keyword": "Feature",
-    "uri": "/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/TestAutomation/e2e/features/TestCases/START_TestCases.feature",
-    "elements": [
-      {
-        "name": "Buy Event Tickets",
-        "id": "Buy-Event-Ticket;buy-event-tickets",
-        "line": 3,
-        "keyword": "Scenario",
-        "description": "",
-        "type": "scenario",
-        "steps": [
-          {
-            "name": "I START Test case",
-            "line": 4,
-            "keyword": "Given ",
-            "result": {
-              "duration": 2179524,
-              "status": "passed"
-            },
-            "match": {}
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "Buy-Event-Ticket",
-    "name": "Buy Event Ticket",
-    "description": "",
-    "line": 1,
-    "keyword": "Feature",
-    "uri": "/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/TestAutomation/e2e/features/TestCases/OpenWebsite.feature",
-    "elements": [
-      {
-        "name": "Buy Event Tickets",
-        "id": "Buy-Event-Ticket;buy-event-tickets",
-        "line": 3,
-        "keyword": "Scenario",
-        "description": "",
-        "type": "scenario",
-        "steps": [
-          {
-            "name": "I enter CulturalLink Website",
-            "line": 4,
-            "keyword": "Then ",
-            "result": {
-              "duration": 7135572,
-              "status": "passed"
-            },
-            "match": {}
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "Buy-Event-Ticket",
-    "name": "Buy Event Ticket",
-    "description": "",
-    "line": 1,
-    "keyword": "Feature",
-    "uri": "/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/TestAutomation/e2e/features/TestCases/END_TestCases.feature",
-    "elements": [
-      {
-        "name": "Buy Event Tickets",
-        "id": "Buy-Event-Ticket;buy-event-tickets",
-        "line": 3,
-        "keyword": "Scenario",
-        "description": "",
-        "type": "scenario",
-        "steps": [
-          {
-            "name": "I END Test case",
-            "line": 4,
-            "keyword": "Given ",
-            "result": {
-              "duration": 247313,
-              "status": "passed"
-            },
-            "match": {}
-          }
-        ]
-      }
-    ]
-  }
+{
+"id": "Enter-User-Profile-Information",
+"name": "Enter User Profile Information",
+"description": "\nRules:\n-Verify that All inputs boxes are working. (Test case A)\n\nQuestion:\n-What happens if email entered is bad (display ERROR)? Yes (Test case B-1)\n-What happens if phone number entered is bad (display ERROR)? Yes (Test case B-2)\n-What happens if fields are empty on require fields (display ERROR)? Yes (Test case C)",
+"line": 5,
+"keyword": "Feature",
+"uri": "/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/TestAutomation/e2e/features/TestCases/OpenWebsite.feature",
+"elements": [
+{
+"name": "",
+"keyword": "Background",
+"description": "",
+"type": "background",
+"line": 15,
+"steps": [
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given "
+}
 ]
+},
+{
+"name": "Enter good User Profile data no error display",
+"id": "Enter-User-Profile-Information;enter-good-user-profile-data-no-error-display",
+"line": 22,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_A",
+"line": 21
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 2434838,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 6112576,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name AfirstName",
+"line": 23,
+"keyword": "When ",
+"result": {
+"duration": 6375544,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name AlastName",
+"line": 24,
+"keyword": "And ",
+"result": {
+"duration": 4708172,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress@email.com",
+"line": 25,
+"keyword": "And ",
+"result": {
+"duration": 5072304,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number (123)456-7890",
+"line": 26,
+"keyword": "And ",
+"result": {
+"duration": 14129691,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"firstName\" errors displayed",
+"line": 27,
+"keyword": "Then ",
+"result": {
+"duration": 8000997,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"lastName\" errors displayed",
+"line": 28,
+"keyword": "Then ",
+"result": {
+"duration": 5107826,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"emailAddress\" errors displayed",
+"line": 29,
+"keyword": "Then ",
+"result": {
+"duration": 4794585,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"phoneNumber\" errors displayed",
+"line": 30,
+"keyword": "Then ",
+"result": {
+"duration": 7985152,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 31,
+"keyword": "When ",
+"result": {
+"duration": 6833584,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 222838,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter good User Profile data no error display",
+"id": "Enter-User-Profile-Information;enter-good-user-profile-data-no-error-display",
+"line": 22,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_A",
+"line": 21
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 1239105,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 4087115,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name AfirstName",
+"line": 23,
+"keyword": "When ",
+"result": {
+"duration": 4925289,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name AlastName",
+"line": 24,
+"keyword": "And ",
+"result": {
+"duration": 6578512,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress@email.com",
+"line": 25,
+"keyword": "And ",
+"result": {
+"duration": 9165477,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number 123-456-7890",
+"line": 26,
+"keyword": "And ",
+"result": {
+"duration": 11345410,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"firstName\" errors displayed",
+"line": 27,
+"keyword": "Then ",
+"result": {
+"duration": 2396879,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"lastName\" errors displayed",
+"line": 28,
+"keyword": "Then ",
+"result": {
+"duration": 3179336,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"emailAddress\" errors displayed",
+"line": 29,
+"keyword": "Then ",
+"result": {
+"duration": 3820443,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"phoneNumber\" errors displayed",
+"line": 30,
+"keyword": "Then ",
+"result": {
+"duration": 6394321,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 31,
+"keyword": "When ",
+"result": {
+"duration": 19653937,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 57998,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter good User Profile data no error display",
+"id": "Enter-User-Profile-Information;enter-good-user-profile-data-no-error-display",
+"line": 22,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_A",
+"line": 21
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 397254,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 1478419,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name AfirstName",
+"line": 23,
+"keyword": "When ",
+"result": {
+"duration": 1817182,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name AlastName",
+"line": 24,
+"keyword": "And ",
+"result": {
+"duration": 2605667,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress@email.com",
+"line": 25,
+"keyword": "And ",
+"result": {
+"duration": 3567280,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number 1234567890",
+"line": 26,
+"keyword": "And ",
+"result": {
+"duration": 5748358,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"firstName\" errors displayed",
+"line": 27,
+"keyword": "Then ",
+"result": {
+"duration": 2005815,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"lastName\" errors displayed",
+"line": 28,
+"keyword": "Then ",
+"result": {
+"duration": 3395895,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"emailAddress\" errors displayed",
+"line": 29,
+"keyword": "Then ",
+"result": {
+"duration": 3428721,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"phoneNumber\" errors displayed",
+"line": 30,
+"keyword": "Then ",
+"result": {
+"duration": 2992503,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 31,
+"keyword": "When ",
+"result": {
+"duration": 3666928,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 12477,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter good User Profile data no error display",
+"id": "Enter-User-Profile-Information;enter-good-user-profile-data-no-error-display",
+"line": 22,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_A",
+"line": 21
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 160995,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 1339162,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name AfirstName",
+"line": 23,
+"keyword": "When ",
+"result": {
+"duration": 2009174,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name AlastName",
+"line": 24,
+"keyword": "And ",
+"result": {
+"duration": 2623701,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress@email.com",
+"line": 25,
+"keyword": "And ",
+"result": {
+"duration": 3208137,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number (123)4567890",
+"line": 26,
+"keyword": "And ",
+"result": {
+"duration": 5246973,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"firstName\" errors displayed",
+"line": 27,
+"keyword": "Then ",
+"result": {
+"duration": 2952279,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"lastName\" errors displayed",
+"line": 28,
+"keyword": "Then ",
+"result": {
+"duration": 1706374,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"emailAddress\" errors displayed",
+"line": 29,
+"keyword": "Then ",
+"result": {
+"duration": 1819502,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"phoneNumber\" errors displayed",
+"line": 30,
+"keyword": "Then ",
+"result": {
+"duration": 2914686,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 31,
+"keyword": "When ",
+"result": {
+"duration": 2463141,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 11259,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter good User Profile data no error display",
+"id": "Enter-User-Profile-Information;enter-good-user-profile-data-no-error-display",
+"line": 22,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_A",
+"line": 21
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 340105,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 1769780,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name Afirstname",
+"line": 23,
+"keyword": "When ",
+"result": {
+"duration": 1610549,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name Alastname",
+"line": 24,
+"keyword": "And ",
+"result": {
+"duration": 2104743,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress@email.com",
+"line": 25,
+"keyword": "And ",
+"result": {
+"duration": 3471415,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number 123-456-7890",
+"line": 26,
+"keyword": "And ",
+"result": {
+"duration": 9954055,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"firstName\" errors displayed",
+"line": 27,
+"keyword": "Then ",
+"result": {
+"duration": 9607885,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"lastName\" errors displayed",
+"line": 28,
+"keyword": "Then ",
+"result": {
+"duration": 5704338,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"emailAddress\" errors displayed",
+"line": 29,
+"keyword": "Then ",
+"result": {
+"duration": 3167613,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"phoneNumber\" errors displayed",
+"line": 30,
+"keyword": "Then ",
+"result": {
+"duration": 3421005,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 31,
+"keyword": "When ",
+"result": {
+"duration": 4090520,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 57579,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter good User Profile data no error display",
+"id": "Enter-User-Profile-Information;enter-good-user-profile-data-no-error-display",
+"line": 22,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_A",
+"line": 21
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 739086,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 2548839,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name Afirstname1",
+"line": 23,
+"keyword": "When ",
+"result": {
+"duration": 2373097,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name Alastname1",
+"line": 24,
+"keyword": "And ",
+"result": {
+"duration": 4082577,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress@email.com",
+"line": 25,
+"keyword": "And ",
+"result": {
+"duration": 2639502,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number 123-456-7890",
+"line": 26,
+"keyword": "And ",
+"result": {
+"duration": 4754760,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"firstName\" errors displayed",
+"line": 27,
+"keyword": "Then ",
+"result": {
+"duration": 2828429,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"lastName\" errors displayed",
+"line": 28,
+"keyword": "Then ",
+"result": {
+"duration": 1710673,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"emailAddress\" errors displayed",
+"line": 29,
+"keyword": "Then ",
+"result": {
+"duration": 2088762,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"phoneNumber\" errors displayed",
+"line": 30,
+"keyword": "Then ",
+"result": {
+"duration": 2284850,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 31,
+"keyword": "When ",
+"result": {
+"duration": 2514865,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 16520,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter good User Profile data no error display",
+"id": "Enter-User-Profile-Information;enter-good-user-profile-data-no-error-display",
+"line": 22,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_A",
+"line": 21
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 233020,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 2077736,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name Afirstname1@",
+"line": 23,
+"keyword": "When ",
+"result": {
+"duration": 3015067,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name Alastname1@",
+"line": 24,
+"keyword": "And ",
+"result": {
+"duration": 1907639,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress@email.com",
+"line": 25,
+"keyword": "And ",
+"result": {
+"duration": 2843638,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number 123-456-7890",
+"line": 26,
+"keyword": "And ",
+"result": {
+"duration": 4942035,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"firstName\" errors displayed",
+"line": 27,
+"keyword": "Then ",
+"result": {
+"duration": 1797937,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"lastName\" errors displayed",
+"line": 28,
+"keyword": "Then ",
+"result": {
+"duration": 1718964,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"emailAddress\" errors displayed",
+"line": 29,
+"keyword": "Then ",
+"result": {
+"duration": 3523456,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"phoneNumber\" errors displayed",
+"line": 30,
+"keyword": "Then ",
+"result": {
+"duration": 2568441,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 31,
+"keyword": "When ",
+"result": {
+"duration": 3478637,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 16439,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter good User Profile data no error display",
+"id": "Enter-User-Profile-Information;enter-good-user-profile-data-no-error-display",
+"line": 22,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_A",
+"line": 21
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 267340,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 1427697,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name Afirstname1@",
+"line": 23,
+"keyword": "When ",
+"result": {
+"duration": 2390199,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name Afirstname1@",
+"line": 24,
+"keyword": "And ",
+"result": {
+"duration": 7776999,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress@email.com",
+"line": 25,
+"keyword": "And ",
+"result": {
+"duration": 6952798,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number 123-456-7890",
+"line": 26,
+"keyword": "And ",
+"result": {
+"duration": 9411394,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"firstName\" errors displayed",
+"line": 27,
+"keyword": "Then ",
+"result": {
+"duration": 2487006,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"lastName\" errors displayed",
+"line": 28,
+"keyword": "Then ",
+"result": {
+"duration": 1935910,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"emailAddress\" errors displayed",
+"line": 29,
+"keyword": "Then ",
+"result": {
+"duration": 1935819,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"phoneNumber\" errors displayed",
+"line": 30,
+"keyword": "Then ",
+"result": {
+"duration": 2385408,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 31,
+"keyword": "When ",
+"result": {
+"duration": 2869965,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 12710,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter good User Profile data no error display",
+"id": "Enter-User-Profile-Information;enter-good-user-profile-data-no-error-display",
+"line": 22,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_A",
+"line": 21
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 192396,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 1461301,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name Afirstname",
+"line": 23,
+"keyword": "When ",
+"result": {
+"duration": 1603075,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name Alastname",
+"line": 24,
+"keyword": "And ",
+"result": {
+"duration": 3485319,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress1@email.com",
+"line": 25,
+"keyword": "And ",
+"result": {
+"duration": 2555145,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number 123-456-7890",
+"line": 26,
+"keyword": "And ",
+"result": {
+"duration": 7882858,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"firstName\" errors displayed",
+"line": 27,
+"keyword": "Then ",
+"result": {
+"duration": 1724491,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"lastName\" errors displayed",
+"line": 28,
+"keyword": "Then ",
+"result": {
+"duration": 1862309,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"emailAddress\" errors displayed",
+"line": 29,
+"keyword": "Then ",
+"result": {
+"duration": 2212371,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"phoneNumber\" errors displayed",
+"line": 30,
+"keyword": "Then ",
+"result": {
+"duration": 2505811,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 31,
+"keyword": "When ",
+"result": {
+"duration": 2271718,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 9745,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter good User Profile data no error display",
+"id": "Enter-User-Profile-Information;enter-good-user-profile-data-no-error-display",
+"line": 22,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_A",
+"line": 21
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 165775,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 1235744,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name Afirstname",
+"line": 23,
+"keyword": "When ",
+"result": {
+"duration": 1594605,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name Alastname",
+"line": 24,
+"keyword": "And ",
+"result": {
+"duration": 2901973,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress!@email.com",
+"line": 25,
+"keyword": "And ",
+"result": {
+"duration": 3211100,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number 123-456-7890",
+"line": 26,
+"keyword": "And ",
+"result": {
+"duration": 4067263,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"firstName\" errors displayed",
+"line": 27,
+"keyword": "Then ",
+"result": {
+"duration": 1714085,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"lastName\" errors displayed",
+"line": 28,
+"keyword": "Then ",
+"result": {
+"duration": 1713721,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"emailAddress\" errors displayed",
+"line": 29,
+"keyword": "Then ",
+"result": {
+"duration": 1863491,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"phoneNumber\" errors displayed",
+"line": 30,
+"keyword": "Then ",
+"result": {
+"duration": 2036448,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 31,
+"keyword": "When ",
+"result": {
+"duration": 3919013,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 10438,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter good User Profile data no error display",
+"id": "Enter-User-Profile-Information;enter-good-user-profile-data-no-error-display",
+"line": 22,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_A",
+"line": 21
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 153419,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 1227021,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name Afirstname",
+"line": 23,
+"keyword": "When ",
+"result": {
+"duration": 4660087,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name Alastname",
+"line": 24,
+"keyword": "And ",
+"result": {
+"duration": 5807031,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress_@email.com",
+"line": 25,
+"keyword": "And ",
+"result": {
+"duration": 7081174,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number 123-456-7890",
+"line": 26,
+"keyword": "And ",
+"result": {
+"duration": 8981659,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"firstName\" errors displayed",
+"line": 27,
+"keyword": "Then ",
+"result": {
+"duration": 1572445,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"lastName\" errors displayed",
+"line": 28,
+"keyword": "Then ",
+"result": {
+"duration": 1651081,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"emailAddress\" errors displayed",
+"line": 29,
+"keyword": "Then ",
+"result": {
+"duration": 1812886,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"phoneNumber\" errors displayed",
+"line": 30,
+"keyword": "Then ",
+"result": {
+"duration": 3087661,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 31,
+"keyword": "When ",
+"result": {
+"duration": 2646875,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 1020642,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter good User Profile data no error display",
+"id": "Enter-User-Profile-Information;enter-good-user-profile-data-no-error-display",
+"line": 22,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_A",
+"line": 21
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 187365,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 1450765,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name Afirstname",
+"line": 23,
+"keyword": "When ",
+"result": {
+"duration": 1840165,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name Alastname",
+"line": 24,
+"keyword": "And ",
+"result": {
+"duration": 2124110,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address Aemail.Address@email.com",
+"line": 25,
+"keyword": "And ",
+"result": {
+"duration": 2665012,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number 123-456-7890",
+"line": 26,
+"keyword": "And ",
+"result": {
+"duration": 4004080,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"firstName\" errors displayed",
+"line": 27,
+"keyword": "Then ",
+"result": {
+"duration": 3650140,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"lastName\" errors displayed",
+"line": 28,
+"keyword": "Then ",
+"result": {
+"duration": 1679803,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"emailAddress\" errors displayed",
+"line": 29,
+"keyword": "Then ",
+"result": {
+"duration": 2159626,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"phoneNumber\" errors displayed",
+"line": 30,
+"keyword": "Then ",
+"result": {
+"duration": 2330810,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 31,
+"keyword": "When ",
+"result": {
+"duration": 2956660,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 21295,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter good User Profile data no error display",
+"id": "Enter-User-Profile-Information;enter-good-user-profile-data-no-error-display",
+"line": 22,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_A",
+"line": 21
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 173579,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 1281914,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name Afirstname",
+"line": 23,
+"keyword": "When ",
+"result": {
+"duration": 1674578,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name Alastname",
+"line": 24,
+"keyword": "And ",
+"result": {
+"duration": 3098909,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress1@a.c",
+"line": 25,
+"keyword": "And ",
+"result": {
+"duration": 2815086,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number 123-456-7890",
+"line": 26,
+"keyword": "And ",
+"result": {
+"duration": 4842095,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"firstName\" errors displayed",
+"line": 27,
+"keyword": "Then ",
+"result": {
+"duration": 1513577,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"lastName\" errors displayed",
+"line": 28,
+"keyword": "Then ",
+"result": {
+"duration": 2501767,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"emailAddress\" errors displayed",
+"line": 29,
+"keyword": "Then ",
+"result": {
+"duration": 2556134,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should not see in \"phoneNumber\" errors displayed",
+"line": 30,
+"keyword": "Then ",
+"result": {
+"duration": 3793882,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 31,
+"keyword": "When ",
+"result": {
+"duration": 5164232,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 16483,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter wrong User Profile email will throw error",
+"id": "Enter-User-Profile-Information;enter-wrong-user-profile-email-will-throw-error",
+"line": 71,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_B-1",
+"line": 70
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 218772,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 1722310,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name Afirstname",
+"line": 72,
+"keyword": "When ",
+"result": {
+"duration": 3728653,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name Alastname",
+"line": 73,
+"keyword": "And ",
+"result": {
+"duration": 9673840,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress.@email.com",
+"line": 74,
+"keyword": "And ",
+"result": {
+"duration": 7277605,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number 123-456-7890",
+"line": 75,
+"keyword": "And ",
+"result": {
+"duration": 4826131,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"emailAddress\" errors \"Invalid email address\" displayed for this \"filled\" field",
+"line": 76,
+"keyword": "Then ",
+"result": {
+"duration": 1887412,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 77,
+"keyword": "When ",
+"result": {
+"duration": 2107192,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 20560,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter wrong User Profile email will throw error",
+"id": "Enter-User-Profile-Information;enter-wrong-user-profile-email-will-throw-error",
+"line": 71,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_B-1",
+"line": 70
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 153130,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 2191085,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name AfirstName",
+"line": 72,
+"keyword": "When ",
+"result": {
+"duration": 1793964,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name AlastName",
+"line": 73,
+"keyword": "And ",
+"result": {
+"duration": 1948680,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress@@email.com",
+"line": 74,
+"keyword": "And ",
+"result": {
+"duration": 2478206,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number 123-456-7890",
+"line": 75,
+"keyword": "And ",
+"result": {
+"duration": 5667536,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"emailAddress\" errors \"Invalid email address\" displayed for this \"filled\" field",
+"line": 76,
+"keyword": "Then ",
+"result": {
+"duration": 1550362,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 77,
+"keyword": "When ",
+"result": {
+"duration": 1772742,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 18675,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter wrong User Profile email will throw error",
+"id": "Enter-User-Profile-Information;enter-wrong-user-profile-email-will-throw-error",
+"line": 71,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_B-1",
+"line": 70
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 164980,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 1298840,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name AfirstName",
+"line": 72,
+"keyword": "When ",
+"result": {
+"duration": 1582782,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name AlastName",
+"line": 73,
+"keyword": "And ",
+"result": {
+"duration": 1886381,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address A",
+"line": 74,
+"keyword": "And ",
+"result": {
+"duration": 2840187,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number 123-456-7890",
+"line": 75,
+"keyword": "And ",
+"result": {
+"duration": 6086172,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"emailAddress\" errors \"Invalid email address\" displayed for this \"filled\" field",
+"line": 76,
+"keyword": "Then ",
+"result": {
+"duration": 1609944,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 77,
+"keyword": "When ",
+"result": {
+"duration": 3103623,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 14205,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter wrong User Profile phone number will throw error",
+"id": "Enter-User-Profile-Information;enter-wrong-user-profile-phone-number-will-throw-error",
+"line": 90,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_B-2",
+"line": 89
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 256127,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 2014805,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name AfirstName",
+"line": 91,
+"keyword": "When ",
+"result": {
+"duration": 1641052,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name AlastName",
+"line": 92,
+"keyword": "And ",
+"result": {
+"duration": 1900712,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress@email.com",
+"line": 93,
+"keyword": "And ",
+"result": {
+"duration": 2883792,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number a",
+"line": 94,
+"keyword": "And ",
+"result": {
+"duration": 4014990,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"phoneNumber\" errors \"Must be a valid 10 digit number\" displayed for this \"filled\" field",
+"line": 95,
+"keyword": "Then ",
+"result": {
+"duration": 1782782,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 96,
+"keyword": "When ",
+"result": {
+"duration": 1783493,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 9344,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter wrong User Profile phone number will throw error",
+"id": "Enter-User-Profile-Information;enter-wrong-user-profile-phone-number-will-throw-error",
+"line": 90,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_B-2",
+"line": 89
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 1148849,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 2428380,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name AfirstName",
+"line": 91,
+"keyword": "When ",
+"result": {
+"duration": 2317571,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name AlastName",
+"line": 92,
+"keyword": "And ",
+"result": {
+"duration": 2213508,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress@email.com",
+"line": 93,
+"keyword": "And ",
+"result": {
+"duration": 3135525,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number a23-456-7890",
+"line": 94,
+"keyword": "And ",
+"result": {
+"duration": 15083982,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"phoneNumber\" errors \"Must be a valid 10 digit number\" displayed for this \"filled\" field",
+"line": 95,
+"keyword": "Then ",
+"result": {
+"duration": 3846398,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 96,
+"keyword": "When ",
+"result": {
+"duration": 2175269,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 9805,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter wrong User Profile phone number will throw error",
+"id": "Enter-User-Profile-Information;enter-wrong-user-profile-phone-number-will-throw-error",
+"line": 90,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_B-2",
+"line": 89
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 1668545,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 1535641,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name AfirstName",
+"line": 91,
+"keyword": "When ",
+"result": {
+"duration": 2285330,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name AlastName",
+"line": 92,
+"keyword": "And ",
+"result": {
+"duration": 1967648,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress@email.com",
+"line": 93,
+"keyword": "And ",
+"result": {
+"duration": 2448683,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number 456-7890",
+"line": 94,
+"keyword": "And ",
+"result": {
+"duration": 6065312,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"phoneNumber\" errors \"Must be a valid 10 digit number\" displayed for this \"filled\" field",
+"line": 95,
+"keyword": "Then ",
+"result": {
+"duration": 1628955,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 96,
+"keyword": "When ",
+"result": {
+"duration": 1746933,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 8128,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter empty User Profile data will throw error",
+"id": "Enter-User-Profile-Information;enter-empty-user-profile-data-will-throw-error",
+"line": 111,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_C",
+"line": 110
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 142664,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 1337054,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name ",
+"line": 112,
+"keyword": "When ",
+"result": {
+"duration": 2095839,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name ",
+"line": 113,
+"keyword": "And ",
+"result": {
+"duration": 1916879,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address ",
+"line": 114,
+"keyword": "And ",
+"result": {
+"duration": 2707731,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number ",
+"line": 115,
+"keyword": "And ",
+"result": {
+"duration": 3975877,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"firstName\" errors \"Required\" displayed for this \"empty\" field",
+"line": 116,
+"keyword": "Then ",
+"result": {
+"duration": 1760655,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"lastName\" errors \"Required\" displayed for this \"empty\" field",
+"line": 117,
+"keyword": "Then ",
+"result": {
+"duration": 1759647,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"emailAddress\" errors \"Required\" displayed for this \"empty\" field",
+"line": 118,
+"keyword": "Then ",
+"result": {
+"duration": 2481164,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 120,
+"keyword": "When ",
+"result": {
+"duration": 2360552,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 9214,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter empty User Profile data will throw error",
+"id": "Enter-User-Profile-Information;enter-empty-user-profile-data-will-throw-error",
+"line": 111,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_C",
+"line": 110
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 147484,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 3842813,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name ",
+"line": 112,
+"keyword": "When ",
+"result": {
+"duration": 1750412,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name AlastName",
+"line": 113,
+"keyword": "And ",
+"result": {
+"duration": 2257319,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress@email.com",
+"line": 114,
+"keyword": "And ",
+"result": {
+"duration": 2302300,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number (123)456-7890",
+"line": 115,
+"keyword": "And ",
+"result": {
+"duration": 4853301,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"firstName\" errors \"Required\" displayed for this \"empty\" field",
+"line": 116,
+"keyword": "Then ",
+"result": {
+"duration": 1522624,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"lastName\" errors \"Required\" displayed for this \"empty\" field",
+"line": 117,
+"keyword": "Then ",
+"result": {
+"duration": 16804,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"emailAddress\" errors \"Required\" displayed for this \"empty\" field",
+"line": 118,
+"keyword": "Then ",
+"result": {
+"duration": 9720,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 120,
+"keyword": "When ",
+"result": {
+"duration": 2475185,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 10478,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter empty User Profile data will throw error",
+"id": "Enter-User-Profile-Information;enter-empty-user-profile-data-will-throw-error",
+"line": 111,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_C",
+"line": 110
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 579603,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 1300836,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name AfirstName",
+"line": 112,
+"keyword": "When ",
+"result": {
+"duration": 1575993,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name ",
+"line": 113,
+"keyword": "And ",
+"result": {
+"duration": 2226555,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress@email.com",
+"line": 114,
+"keyword": "And ",
+"result": {
+"duration": 2804018,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number (123)456-7890",
+"line": 115,
+"keyword": "And ",
+"result": {
+"duration": 4416169,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"firstName\" errors \"Required\" displayed for this \"empty\" field",
+"line": 116,
+"keyword": "Then ",
+"result": {
+"duration": 17048,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"lastName\" errors \"Required\" displayed for this \"empty\" field",
+"line": 117,
+"keyword": "Then ",
+"result": {
+"duration": 5935499,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"emailAddress\" errors \"Required\" displayed for this \"empty\" field",
+"line": 118,
+"keyword": "Then ",
+"result": {
+"duration": 33628,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 120,
+"keyword": "When ",
+"result": {
+"duration": 5765174,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 17994,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter empty User Profile data will throw error",
+"id": "Enter-User-Profile-Information;enter-empty-user-profile-data-will-throw-error",
+"line": 111,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_C",
+"line": 110
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 509309,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 3925549,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name AfirstName",
+"line": 112,
+"keyword": "When ",
+"result": {
+"duration": 3874051,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name AlastName",
+"line": 113,
+"keyword": "And ",
+"result": {
+"duration": 1929113,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address ",
+"line": 114,
+"keyword": "And ",
+"result": {
+"duration": 4754557,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number (123)456-7890",
+"line": 115,
+"keyword": "And ",
+"result": {
+"duration": 4747594,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"firstName\" errors \"Required\" displayed for this \"empty\" field",
+"line": 116,
+"keyword": "Then ",
+"result": {
+"duration": 17015,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"lastName\" errors \"Required\" displayed for this \"empty\" field",
+"line": 117,
+"keyword": "Then ",
+"result": {
+"duration": 8962,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"emailAddress\" errors \"Required\" displayed for this \"empty\" field",
+"line": 118,
+"keyword": "Then ",
+"result": {
+"duration": 2398791,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 120,
+"keyword": "When ",
+"result": {
+"duration": 4712805,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 10056,
+"status": "passed"
+},
+"match": {}
+}
+]
+},
+{
+"name": "Enter empty User Profile data will throw error",
+"id": "Enter-User-Profile-Information;enter-empty-user-profile-data-will-throw-error",
+"line": 111,
+"keyword": "Scenario",
+"description": "",
+"type": "scenario",
+"tags": [
+{
+"name": "@TestCases_C",
+"line": 110
+}
+],
+"steps": [
+{
+"keyword": "Before ",
+"hidden": true,
+"result": {
+"duration": 158240,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter BlackBook Website",
+"line": 16,
+"keyword": "Given ",
+"result": {
+"duration": 1396362,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my first name AfirstName",
+"line": 112,
+"keyword": "When ",
+"result": {
+"duration": 1839317,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my last name AlastName",
+"line": 113,
+"keyword": "And ",
+"result": {
+"duration": 2974238,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my email address AemailAddress@email.com",
+"line": 114,
+"keyword": "And ",
+"result": {
+"duration": 2757303,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I enter my phone number ",
+"line": 115,
+"keyword": "And ",
+"result": {
+"duration": 5089200,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"firstName\" errors \"Required\" displayed for this \"empty\" field",
+"line": 116,
+"keyword": "Then ",
+"result": {
+"duration": 16157,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"lastName\" errors \"Required\" displayed for this \"empty\" field",
+"line": 117,
+"keyword": "Then ",
+"result": {
+"duration": 59757,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I should see \"emailAddress\" errors \"Required\" displayed for this \"empty\" field",
+"line": 118,
+"keyword": "Then ",
+"result": {
+"duration": 10782,
+"status": "passed"
+},
+"match": {}
+},
+{
+"name": "I click Cancel Button",
+"line": 120,
+"keyword": "When ",
+"result": {
+"duration": 2133865,
+"status": "passed"
+},
+"match": {}
+},
+{
+"keyword": "After ",
+"hidden": true,
+"result": {
+"duration": 8975,
+"status": "passed"
+},
+"match": {}
+}
+]
+}
+]
+}
+]
+
