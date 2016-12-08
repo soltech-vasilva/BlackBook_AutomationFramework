@@ -105,7 +105,7 @@ var OpenBlackBookDashboard = function OpenBlackBookDashboard(){
                 });
                 break;
         }
-    };
+    }; 
 
     OpenBlackBookDashboard.prototype.Verify_ErrorMessageToDisplay = function (str_TextboxName , str_VerifyErrorName, FilledOrEmptyField) {
 

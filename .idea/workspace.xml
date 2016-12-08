@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="760bc51e-978d-479b-90e6-7a4e7ee1daf7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reports/e2e/cucumber-test-results_11_8_16.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite1.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/e2e/cucumber-test-results.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/Page/BB_Dashboard.js" afterPath="$PROJECT_DIR$/TestAutomation/e2e/features/Page/BB_Dashboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/Page/CaptureBrowserCapabilities.js" afterPath="$PROJECT_DIR$/TestAutomation/e2e/features/Page/CaptureBrowserCapabilities.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/Repository/BB_DashboardRepo.js" afterPath="$PROJECT_DIR$/TestAutomation/e2e/features/Repository/BB_DashboardRepo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature" afterPath="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/e2e/features/step_definitions/my_steps.js" afterPath="$PROJECT_DIR$/TestAutomation/e2e/features/step_definitions/my_steps.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAutomation/protractor-conf.js" afterPath="$PROJECT_DIR$/TestAutomation/protractor-conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/cucumber-test-results.json" afterPath="$PROJECT_DIR$/reports/cucumber-test-results.json" />
     </list>
     <ignored path="BlackBook_AutomationFramework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,14 +37,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BB_Dashboard.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BB_Dashboard.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/BB_Dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-195">
-              <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+            <state relative-caret-position="62">
+              <caret line="107" column="7" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
-                <element signature="e#7727#7766#0" expanded="false" />
+                <element signature="e#7728#7767#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -77,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cucumber-test-results_11_8_16.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cucumber-test-results_11_8_16.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reports/e2e/cucumber-test-results_11_8_16.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-255">
@@ -112,7 +101,7 @@
       <file leaf-file-name="OpenWebsite.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
+            <state relative-caret-position="196">
               <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
               <folding>
                 <marker date="1481201115000" expanded="true" signature="3773:4644" ph="..." />
@@ -200,13 +189,13 @@
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/EyesSetUp.js" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite1.feature" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Repository/BB_DashboardRepo.js" />
-        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/BB_Dashboard.js" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/CaptureBrowserCapabilities.js" />
         <option value="$PROJECT_DIR$/TestAutomation/protractor-conf.js" />
         <option value="$PROJECT_DIR$/reports/cucumber-test-results.json" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/TestAutomation/e2e/features/step_definitions/my_steps.js" />
+        <option value="$PROJECT_DIR$/TestAutomation/e2e/features/Page/BB_Dashboard.js" />
       </list>
     </option>
   </component>
@@ -656,7 +645,7 @@
       <workItem from="1480612031816" duration="18975000" />
       <workItem from="1480938899624" duration="13397000" />
       <workItem from="1480967286758" duration="258000" />
-      <workItem from="1480967837685" duration="59368000" />
+      <workItem from="1480967837685" duration="59481000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1478621310570</created>
@@ -789,7 +778,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288887000" />
+    <option name="totallyTimeSpent" value="289000000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1091,27 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/BB_Dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-            <element signature="e#7727#7766#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
-          <folding>
-            <marker date="1481201115000" expanded="true" signature="3773:4644" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reports/cucumber-test-results.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1157,6 +1125,27 @@
         <state relative-caret-position="-255">
           <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/TestCases/OpenWebsite.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
+          <folding>
+            <marker date="1481201115000" expanded="true" signature="3773:4644" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAutomation/e2e/features/Page/BB_Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="107" column="7" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+            <element signature="e#7728#7767#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
