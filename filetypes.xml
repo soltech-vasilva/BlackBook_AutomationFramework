@@ -4,6 +4,7 @@
       <mapping pattern="JsonOutputHook" type="JavaScript" />
       <mapping pattern="OpenWebsite" type="PLAIN_TEXT" />
       <mapping pattern="q" type="PLAIN_TEXT" />
+      <mapping pattern="BrowserStackLocal" type="PLAIN_TEXT" />
       <mapping ext="cpgz" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
