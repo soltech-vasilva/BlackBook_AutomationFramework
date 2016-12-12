@@ -61,8 +61,7 @@ var myBlackBookSteps = function myBlackBookSteps() {
         callback();
     });
 
-    this.Given(/^I enter BlackBook Website$/, function (callback)
-    {
+    this.Given(/^I enter BlackBook Website$/, function (callback) {
         BB_dashboard.OpenBlackBookDashboard(eyes);
         callback();
     });
@@ -87,6 +86,16 @@ var myBlackBookSteps = function myBlackBookSteps() {
         callback();
     });
 
+    this.When(/^I enter my new Password (.*)$/, function (newPassword, callback) {
+        BB_dashboard.Enter_NewPassword(newPassword);
+        callback();
+    });
+
+    this.When(/^I enter my confirm new password (.*)$/, function (confirmNewPassword, callback) {
+        BB_dashboard.Enter_ConfirmNewPassword(confirmNewPassword);
+        callback();
+    });
+
     this.When(/^I click Cancel Button$/, function (callback) {
         element(by.buttonText('Cancel')).click();
         callback();
@@ -106,6 +115,13 @@ var myBlackBookSteps = function myBlackBookSteps() {
         BB_dashboard.Verify_ErrorMessageToDisplay(str_TextboxName, str_VerifyErrorName, FilledOrEmptyField);
         callback();
     });
+
+    //EMPTY FUNCTION FOR READABILITY ONLY ON CUCUMBER
+    this.When(/^I enter "([^"]*)"$/, function (arg1, callback) {
+        callback();
+    });
+
+
 };
 
 module.exports = myBlackBookSteps;

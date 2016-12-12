@@ -28,6 +28,7 @@ exports.config = {
     //Settings for the local machine (Run "webdriver-manager start" from any directory  + calls inside capabilities)
     //Selenium
     seleniumAddress: 'http://localhost:4444/wd/hub',
+   // seleniumServerJar: './node_modules/protractor/selenium/selenium-server-standalone-2.45.0.jar',
 
     //Appium
     //seleniumAddress: 'http://localhost:4733/wd/hub',
@@ -200,13 +201,16 @@ exports.config = {
 
     directConnect: true, //Protractor can test directly against Chrome and Firefox without using a Selenium Server
 
-    // path relative to the current config file
-    frameworkPath: require.resolve('protractor-cucumber-framework'),
+
+
+
+    //REAL // path relative to the current config file
+     frameworkPath: require.resolve('protractor-cucumber-framework'),
+     framework: 'cucumber',
 
     //set to "custom" instead of cucumber.
-    //framework: 'custom',
+   // framework: 'custom',
 
-    framework: 'cucumber',
 
 //relevant cucumber command line options
     cucumberOpts: {
@@ -218,12 +222,17 @@ exports.config = {
         // require: ['/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/support/JsonOutputHook.js'],
 
         require: ['/Users/Vsilva/WebstormProjects/BlackBook_AutomationFramework/TestAutomation/e2e/features/step_definitions/my_steps.js' ],
-         //format: 'pretty',
-         //format: 'progress',
-        format: 'json',
+        tags: '@TestCases_B-3',
+
+        format: 'pretty',
+        //format: 'json' ,
+        //format: 'json:./src/cucumber_report.json',
+
+        //format: 'progress',
+        //format: 'json',
         //format: 'summary',
 
-        tags: false, //leave it false works.
+       // tags: false, //leave it false works.
 
         profile: false, //false  it still works on true
         'no-source': true,

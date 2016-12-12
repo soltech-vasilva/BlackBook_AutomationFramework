@@ -3,5 +3,6 @@
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$" libraries="{BlackBook_AutomationFramework/node_modules}" />
     <file url="PROJECT" libraries="{chai-DefinitelyTyped, chai-as-promised-DefinitelyTyped, cucumber-DefinitelyTyped}" />
+    <includedPredefinedLibrary name="ECMAScript 6" />
   </component>
 </project>
