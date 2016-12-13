@@ -1,5 +1,0 @@
-<application>
-  <component name="NotificationConfiguration">
-    <notification groupId="Project Loading Error" shouldReadAloud="true" />
-  </component>
-</application>
