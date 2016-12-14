@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="Login" type="Cucumber" />
       <mapping pattern="JsonOutputHook" type="JavaScript" />
       <mapping pattern="OpenWebsite" type="PLAIN_TEXT" />
       <mapping pattern="q" type="PLAIN_TEXT" />
