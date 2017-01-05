@@ -6,6 +6,7 @@
       <mapping pattern="q" type="PLAIN_TEXT" />
       <mapping pattern="#137_Build_12_19_16" type="PLAIN_TEXT" />
       <mapping pattern="OpenWebsite" type="PLAIN_TEXT" />
+      <mapping pattern="UserList.feature" type="PLAIN_TEXT" />
       <mapping pattern="BrowserStackLocal" type="PLAIN_TEXT" />
       <mapping ext="cpgz" type="PLAIN_TEXT" />
     </extensionMap>
