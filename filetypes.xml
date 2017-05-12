@@ -9,6 +9,7 @@
       <mapping pattern="UserList.feature" type="PLAIN_TEXT" />
       <mapping pattern="BrowserStackLocal" type="PLAIN_TEXT" />
       <mapping ext="cpgz" type="PLAIN_TEXT" />
+      <mapping ext="class" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
